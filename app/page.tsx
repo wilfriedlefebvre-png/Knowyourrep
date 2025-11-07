@@ -55,6 +55,7 @@ export default function Home() {
   const [showCityDropdown, setShowCityDropdown] = useState(false);
   const [wiki, setWiki] = useState<any | null>(null);
   const [wikiLoading, setWikiLoading] = useState(false);
+  const [showWikiModal, setShowWikiModal] = useState(false);
   const [hoveredState, setHoveredState] = useState<string | null>(null);
   const [photoCache, setPhotoCache] = useState<{ [key: string]: string }>({});
   const [showAutocomplete, setShowAutocomplete] = useState(false);
@@ -191,6 +192,23 @@ export default function Home() {
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [showStateDropdown, showCityDropdown]);
+
+  // Close wiki modal with ESC key
+  useEffect(() => {
+    const handleEsc = (event: KeyboardEvent) => {
+      if (event.key === 'Escape' && showWikiModal) {
+        closeWikiModal();
+      }
+    };
+
+    if (showWikiModal) {
+      document.addEventListener('keydown', handleEsc);
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleEsc);
+    };
+  }, [showWikiModal]);
 
   // Get unique parties from data
   const uniqueParties = Array.from(new Set(data.map((p) => p.party))).filter(Boolean).sort();
@@ -359,6 +377,7 @@ export default function Home() {
   const fetchWiki = async (name: string) => {
     setWikiLoading(true);
     setWiki(null);
+    setShowWikiModal(true);
     try {
       const res = await fetch(`/api/wiki?title=${encodeURIComponent(name)}`);
       const data = await res.json();
@@ -377,6 +396,11 @@ export default function Home() {
     } finally {
       setWikiLoading(false);
     }
+  };
+
+  const closeWikiModal = () => {
+    setShowWikiModal(false);
+    setWiki(null);
   };
 
   return (
@@ -794,50 +818,79 @@ export default function Home() {
           )}
         </div>
 
-        {/* Wikipedia Panel */}
-        {wikiLoading && (
-          <div className="w-full max-w-3xl mt-6 text-center">
-            <div className="bg-white/95 backdrop-blur-sm rounded-lg border shadow-lg p-6">
-              <p className="text-gray-600 text-sm">Loading Wikipedia data…</p>
-            </div>
-          </div>
-        )}
-
-        {wiki && !wiki.error && (
-          <div className="w-full max-w-3xl mt-6">
-            <div className="p-4 bg-white/95 backdrop-blur-sm border rounded-lg shadow-lg flex gap-4">
-              {wiki.image && (
-                <img
-                  src={wiki.image}
-                  alt={wiki.title}
-                  className="w-24 h-24 rounded-lg object-cover border-2 border-blue-200 flex-shrink-0"
-                />
-              )}
-              <div className="flex-1">
-                <div className="font-semibold text-lg mb-2 text-blue-700">{wiki.title}</div>
-                <p className="text-sm text-gray-700 line-clamp-5 mb-3">
-                  {wiki.summary}
-                </p>
-                <a
-                  href={wiki.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-xs text-blue-600 hover:text-blue-800 underline font-medium"
+            {/* Wikipedia Modal/Popover */}
+            {showWikiModal && (
+              <div 
+                className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4"
+                onClick={closeWikiModal}
+              >
+                <div 
+                  className="bg-white rounded-lg shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto relative animate-fadeIn"
+                  onClick={(e) => e.stopPropagation()}
                 >
-                  Open full article on Wikipedia →
-                </a>
-              </div>
-            </div>
-          </div>
-        )}
+                  {/* Close Button */}
+                  <button
+                    onClick={closeWikiModal}
+                    className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 text-2xl font-bold z-10 w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors"
+                    aria-label="Close"
+                  >
+                    ×
+                  </button>
 
-        {wiki && wiki.error && (
-          <div className="w-full max-w-3xl mt-6">
-            <div className="bg-white/95 backdrop-blur-sm rounded-lg border shadow-lg p-4">
-              <p className="text-xs text-red-500 text-center">{wiki.error}</p>
-            </div>
-          </div>
-        )}
+                  {/* Content */}
+                  {wikiLoading && (
+                    <div className="p-8 text-center">
+                      <div className="inline-block w-8 h-8 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mb-4"></div>
+                      <p className="text-gray-600">Loading Wikipedia data…</p>
+                    </div>
+                  )}
+
+                  {wiki && !wiki.error && !wikiLoading && (
+                    <div className="p-6">
+                      <div className="flex gap-4 mb-4">
+                        {wiki.image && (
+                          <img
+                            src={wiki.image}
+                            alt={wiki.title}
+                            className="w-32 h-32 rounded-lg object-cover border-2 border-blue-200 flex-shrink-0"
+                          />
+                        )}
+                        <div className="flex-1">
+                          <h3 className="font-bold text-2xl mb-2 text-blue-700">{wiki.title}</h3>
+                        </div>
+                      </div>
+                      <div className="mb-4">
+                        <p className="text-gray-700 leading-relaxed">
+                          {wiki.summary}
+                        </p>
+                      </div>
+                      <div className="flex justify-end pt-4 border-t border-gray-200">
+                        <a
+                          href={wiki.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+                        >
+                          Open full article on Wikipedia →
+                        </a>
+                      </div>
+                    </div>
+                  )}
+
+                  {wiki && wiki.error && !wikiLoading && (
+                    <div className="p-8 text-center">
+                      <p className="text-red-500 mb-4">{wiki.error}</p>
+                      <button
+                        onClick={closeWikiModal}
+                        className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
       </div>
     </main>
   );
