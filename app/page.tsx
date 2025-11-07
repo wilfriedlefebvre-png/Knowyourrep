@@ -57,6 +57,9 @@ export default function Home() {
   const [wikiLoading, setWikiLoading] = useState(false);
   const [hoveredState, setHoveredState] = useState<string | null>(null);
   const [photoCache, setPhotoCache] = useState<{ [key: string]: string }>({});
+  const [showAutocomplete, setShowAutocomplete] = useState(false);
+  const [autocompleteSuggestions, setAutocompleteSuggestions] = useState<any[]>([]);
+  const [selectedSuggestionIndex, setSelectedSuggestionIndex] = useState(-1);
   
   // Track fetching state to avoid duplicate requests
   const fetchingPhotos = useRef<Set<string>>(new Set());
@@ -152,6 +155,68 @@ export default function Home() {
   // Get unique parties from data
   const uniqueParties = Array.from(new Set(data.map((p) => p.party))).filter(Boolean).sort();
 
+  // Generate autocomplete suggestions based on search query
+  useEffect(() => {
+    if (searchQuery.trim().length === 0) {
+      setAutocompleteSuggestions([]);
+      setShowAutocomplete(false);
+      return;
+    }
+
+    const query = searchQuery.toLowerCase().trim();
+    const suggestions: any[] = [];
+
+    // Search by name
+    data.forEach((rep) => {
+      if (rep.name.toLowerCase().includes(query)) {
+        suggestions.push({
+          type: 'name',
+          value: rep.name,
+          label: rep.name,
+          subtitle: `${rep.office} - ${rep.state}`,
+          rep: rep,
+        });
+      }
+    });
+
+    // Search by office/position
+    const uniqueOffices = Array.from(new Set(data.map((p) => p.office)));
+    uniqueOffices.forEach((office) => {
+      if (office.toLowerCase().includes(query)) {
+        const count = data.filter((p) => p.office === office).length;
+        suggestions.push({
+          type: 'office',
+          value: office,
+          label: office,
+          subtitle: `${count} ${count === 1 ? 'representative' : 'representatives'}`,
+        });
+      }
+    });
+
+    // Search by state
+    const uniqueStates = Array.from(new Set(data.map((p) => p.state).filter((s) => s && s !== 'All')));
+    uniqueStates.forEach((stateName) => {
+      if (stateName.toLowerCase().includes(query)) {
+        const count = data.filter((p) => p.state === stateName).length;
+        suggestions.push({
+          type: 'state',
+          value: stateName,
+          label: stateName,
+          subtitle: `${count} ${count === 1 ? 'representative' : 'representatives'}`,
+        });
+      }
+    });
+
+    // Remove duplicates and limit to 10 suggestions
+    const uniqueSuggestions = suggestions
+      .filter((s, index, self) => index === self.findIndex((t) => t.value === s.value && t.type === s.type))
+      .slice(0, 10);
+
+    setAutocompleteSuggestions(uniqueSuggestions);
+    setShowAutocomplete(uniqueSuggestions.length > 0);
+    setSelectedSuggestionIndex(-1);
+  }, [searchQuery, data]);
+
   const filtered = data.filter((p) => {
     const levelMatch = level === "all" || p.level === level;
     
@@ -215,6 +280,42 @@ export default function Home() {
     setHoveredState(stateName);
   };
 
+  const handleSuggestionClick = (suggestion: any) => {
+    if (suggestion.type === 'name') {
+      // Filter to show only this representative
+      setSearchQuery(suggestion.value);
+      setShowAutocomplete(false);
+    } else if (suggestion.type === 'office') {
+      // Filter by office
+      setSearchQuery(suggestion.value);
+      setShowAutocomplete(false);
+    } else if (suggestion.type === 'state') {
+      // Filter by state
+      setState(suggestion.value);
+      setSearchQuery('');
+      setShowAutocomplete(false);
+    }
+  };
+
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (!showAutocomplete || autocompleteSuggestions.length === 0) return;
+
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      setSelectedSuggestionIndex((prev) =>
+        prev < autocompleteSuggestions.length - 1 ? prev + 1 : prev
+      );
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      setSelectedSuggestionIndex((prev) => (prev > 0 ? prev - 1 : -1));
+    } else if (e.key === 'Enter' && selectedSuggestionIndex >= 0) {
+      e.preventDefault();
+      handleSuggestionClick(autocompleteSuggestions[selectedSuggestionIndex]);
+    } else if (e.key === 'Escape') {
+      setShowAutocomplete(false);
+    }
+  };
+
   const fetchWiki = async (name: string) => {
     setWikiLoading(true);
     setWiki(null);
@@ -255,23 +356,66 @@ export default function Home() {
           Know Your Reps
         </h1>
 
-        {/* Search Bar */}
+        {/* Search Bar with Autocomplete */}
         <div className="w-full max-w-3xl mb-6">
           <div className="relative">
             <input
               type="text"
-              placeholder="🔍 Search by name or office..."
+              placeholder="🔍 Search by name, office, or state..."
               className="w-full border-2 border-blue-300 rounded-lg p-3 pl-10 text-lg bg-white/95 backdrop-blur-sm focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 shadow-lg"
               value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              onChange={(e) => {
+                setSearchQuery(e.target.value);
+                setShowAutocomplete(true);
+              }}
+              onKeyDown={handleKeyDown}
+              onFocus={() => {
+                if (autocompleteSuggestions.length > 0) {
+                  setShowAutocomplete(true);
+                }
+              }}
+              onBlur={() => {
+                // Delay to allow click on suggestion
+                setTimeout(() => setShowAutocomplete(false), 200);
+              }}
             />
             {searchQuery && (
               <button
-                onClick={() => setSearchQuery("")}
+                onClick={() => {
+                  setSearchQuery("");
+                  setShowAutocomplete(false);
+                }}
                 className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
               >
                 ✕
               </button>
+            )}
+
+            {/* Autocomplete Dropdown */}
+            {showAutocomplete && autocompleteSuggestions.length > 0 && (
+              <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-lg shadow-xl border-2 border-blue-300 z-50 max-h-96 overflow-y-auto">
+                {autocompleteSuggestions.map((suggestion, index) => (
+                  <button
+                    key={`${suggestion.type}-${suggestion.value}-${index}`}
+                    onClick={() => handleSuggestionClick(suggestion)}
+                    className={`w-full text-left px-4 py-3 hover:bg-blue-50 transition-colors border-b border-gray-100 last:border-b-0 ${
+                      index === selectedSuggestionIndex ? 'bg-blue-100' : ''
+                    }`}
+                  >
+                    <div className="flex items-center justify-between">
+                      <div className="flex-1">
+                        <div className="font-semibold text-gray-900 flex items-center gap-2">
+                          {suggestion.type === 'name' && '👤'}
+                          {suggestion.type === 'office' && '🏛️'}
+                          {suggestion.type === 'state' && '📍'}
+                          {suggestion.label}
+                        </div>
+                        <div className="text-sm text-gray-500 mt-1">{suggestion.subtitle}</div>
+                      </div>
+                    </div>
+                  </button>
+                ))}
+              </div>
             )}
           </div>
         </div>
