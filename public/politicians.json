@@ -156,7 +156,8 @@
     "office": "U.S. Representative",
     "name": "Danny Davis",
     "party": "Democratic Party",
-    "state": "Illinois"
+    "state": "Illinois",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Danny_Davis%2C_official_portrait%2C_116th_Congress.jpg/200px-Danny_Davis%2C_official_portrait%2C_116th_Congress.jpg"
   },
   {
     "level": "federal",
@@ -291,7 +292,8 @@
     "office": "U.S. Senator",
     "name": "Bob Casey",
     "party": "Democratic Party",
-    "state": "Pennsylvania"
+    "state": "Pennsylvania",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Bob_Casey_Jr._official_Senate_photo.jpg/200px-Bob_Casey_Jr._official_Senate_photo.jpg"
   },
   {
     "level": "federal",
@@ -490,7 +492,8 @@
     "office": "U.S. Representative",
     "name": "French Hill",
     "party": "Republican Party",
-    "state": "Arkansas"
+    "state": "Arkansas",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/French_Hill%2C_official_portrait%2C_116th_Congress.jpg/200px-French_Hill%2C_official_portrait%2C_116th_Congress.jpg"
   },
   {
     "level": "federal",
@@ -921,7 +924,8 @@
     "office": "U.S. Representative",
     "name": "Chris Pappas",
     "party": "Democratic Party",
-    "state": "New Hampshire"
+    "state": "New Hampshire",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Chris_Pappas%2C_official_portrait%2C_116th_Congress.jpg/200px-Chris_Pappas%2C_official_portrait%2C_116th_Congress.jpg"
   },
   {
     "level": "federal",
@@ -968,7 +972,8 @@
     "office": "U.S. Representative",
     "name": "Deborah Ross",
     "party": "Democratic Party",
-    "state": "North Carolina"
+    "state": "North Carolina",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Deborah_Ross%2C_official_portrait%2C_117th_Congress.jpg/200px-Deborah_Ross%2C_official_portrait%2C_117th_Congress.jpg"
   },
   {
     "level": "federal",
@@ -1199,7 +1204,8 @@
     "office": "Lieutenant Governor",
     "name": "Dan Patrick",
     "party": "Republican Party",
-    "state": "Texas"
+    "state": "Texas",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Dan_Patrick_Texas_Lt_Governor.jpg/200px-Dan_Patrick_Texas_Lt_Governor.jpg"
   },
   {
     "level": "state",
@@ -1302,7 +1308,8 @@
     "office": "Attorney General",
     "name": "Chris Carr",
     "party": "Republican Party",
-    "state": "Georgia"
+    "state": "Georgia",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Chris_Carr_Georgia_Attorney_General.jpg/200px-Chris_Carr_Georgia_Attorney_General.jpg"
   },
   {
     "level": "state",
@@ -1373,7 +1380,8 @@
     "office": "Attorney General",
     "name": "Matt Platkin",
     "party": "Democratic Party",
-    "state": "New Jersey"
+    "state": "New Jersey",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Matt_Platkin_New_Jersey_Attorney_General.jpg/200px-Matt_Platkin_New_Jersey_Attorney_General.jpg"
   },
   {
     "level": "state",
@@ -1388,14 +1396,16 @@
     "office": "Lieutenant Governor",
     "name": "Austin Davis",
     "party": "Democratic Party",
-    "state": "Pennsylvania"
+    "state": "Pennsylvania",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Austin_Davis_Pennsylvania_Lt_Governor.jpg/200px-Austin_Davis_Pennsylvania_Lt_Governor.jpg"
   },
   {
     "level": "state",
     "office": "Attorney General",
     "name": "Michelle Henry",
     "party": "Democratic Party",
-    "state": "Pennsylvania"
+    "state": "Pennsylvania",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Michelle_Henry_Pennsylvania_Attorney_General.jpg/200px-Michelle_Henry_Pennsylvania_Attorney_General.jpg"
   },
   {
     "level": "state",

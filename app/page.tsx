@@ -70,15 +70,38 @@ export default function Home() {
     fetchingPhotos.current.add(name);
     
     try {
-      const res = await fetch(`/api/wiki?title=${encodeURIComponent(name)}`);
-      if (!res.ok) {
-        fetchingPhotos.current.delete(name);
-        return;
+      // Find the representative to get their office for better search
+      const rep = data.find((p: any) => p.name === name);
+      const office = rep?.office || '';
+      
+      // Try variations of the name to find Wikipedia page
+      const searchVariations = [
+        name, // Try exact name first
+        `${name} (politician)`,
+        `${name} (American politician)`,
+        `${name} (${office})`,
+      ];
+      
+      let foundImage = null;
+      
+      for (const variation of searchVariations) {
+        try {
+          const res = await fetch(`/api/wiki?title=${encodeURIComponent(variation)}`);
+          if (!res.ok) continue;
+          
+          const data = await res.json();
+          if (data.image) {
+            foundImage = data.image;
+            break; // Found a photo, stop searching
+          }
+        } catch (e) {
+          // Continue to next variation
+          continue;
+        }
       }
       
-      const data = await res.json();
-      if (data.image) {
-        setPhotoCache(prev => ({ ...prev, [name]: data.image }));
+      if (foundImage) {
+        setPhotoCache(prev => ({ ...prev, [name]: foundImage }));
       }
     } catch (e) {
       // Silently fail - will show initials instead
@@ -90,7 +113,19 @@ export default function Home() {
   useEffect(() => {
     fetch("/politicians.json")
       .then((res) => res.json())
-      .then((d) => setData(d));
+      .then((d) => {
+        setData(d);
+        // Start fetching photos for all representatives without photos
+        // Use a more aggressive approach with batching
+        const repsWithoutPhotos = d.filter((rep: any) => !rep.photoUrl);
+        repsWithoutPhotos.forEach((rep: any, index: number) => {
+          // Stagger requests to avoid overwhelming the API
+          // But start fetching immediately for visible ones
+          setTimeout(() => {
+            fetchPhotoForRep(rep.name);
+          }, index * 200); // 200ms delay to be respectful to Wikipedia API
+        });
+      });
   }, []);
 
   // Close dropdowns when clicking outside
@@ -146,12 +181,14 @@ export default function Home() {
     return levelMatch && stateMatch && cityMatch && partyMatch && searchMatch;
   });
 
-  // Pre-fetch photos when filtered results change
+  // Pre-fetch photos when filtered results change (more aggressive)
   useEffect(() => {
-    filtered.forEach((rep) => {
+    filtered.forEach((rep, index) => {
       if (!rep.photoUrl && !photoCache[rep.name] && !fetchingPhotos.current.has(rep.name)) {
-        // Fetch photo for visible representatives automatically
-        fetchPhotoForRep(rep.name);
+        // Fetch photo for visible representatives automatically with slight delay
+        setTimeout(() => {
+          fetchPhotoForRep(rep.name);
+        }, index * 50); // Small delay to avoid rate limiting
       }
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -495,10 +532,10 @@ export default function Home() {
                             />
                           );
                         } else {
-                          // Show initials while fetching, but keep fetching in background
+                          // Always try to fetch photo if not already fetching
                           if (!isFetching && !photoCache[p.name]) {
-                            // Trigger fetch if not already fetching
-                            setTimeout(() => fetchPhotoForRep(p.name), 0);
+                            // Trigger fetch immediately for visible representatives
+                            fetchPhotoForRep(p.name);
                           }
                           return (
                             <div className="w-20 h-20 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-2xl font-bold border-2 border-blue-200 relative">
