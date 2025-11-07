@@ -1,0 +1,2198 @@
+[
+  {
+    "level": "federal",
+    "office": "President of the United States",
+    "name": "Donald Trump",
+    "party": "Republican Party",
+    "state": "All",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "Vice President of the United States",
+    "name": "JD Vance",
+    "party": "Republican Party",
+    "state": "All",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/JD_Vance_official_portrait.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "Speaker of the House",
+    "name": "Mike Johnson",
+    "party": "Republican Party",
+    "state": "All",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Mike_Johnson_official_photo.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Dianne Feinstein",
+    "party": "Democratic Party",
+    "state": "California"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Alex Padilla",
+    "party": "Democratic Party",
+    "state": "California"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Nancy Pelosi",
+    "party": "Democratic Party",
+    "state": "California"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Kevin McCarthy",
+    "party": "Republican Party",
+    "state": "California"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Chuck Schumer",
+    "party": "Democratic Party",
+    "state": "New York"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Kirsten Gillibrand",
+    "party": "Democratic Party",
+    "state": "New York"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Hakeem Jeffries",
+    "party": "Democratic Party",
+    "state": "New York"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Ted Cruz",
+    "party": "Republican Party",
+    "state": "Texas"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "John Cornyn",
+    "party": "Republican Party",
+    "state": "Texas"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Lizzie Fletcher",
+    "party": "Democratic Party",
+    "state": "Texas"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Dan Crenshaw",
+    "party": "Republican Party",
+    "state": "Texas"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Marco Rubio",
+    "party": "Republican Party",
+    "state": "Florida"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Rick Scott",
+    "party": "Republican Party",
+    "state": "Florida"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Matt Gaetz",
+    "party": "Republican Party",
+    "state": "Florida"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Dick Durbin",
+    "party": "Democratic Party",
+    "state": "Illinois"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Tammy Duckworth",
+    "party": "Democratic Party",
+    "state": "Illinois"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Danny Davis",
+    "party": "Democratic Party",
+    "state": "Illinois"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Elizabeth Warren",
+    "party": "Democratic Party",
+    "state": "Massachusetts"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Ed Markey",
+    "party": "Democratic Party",
+    "state": "Massachusetts"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Ayanna Pressley",
+    "party": "Democratic Party",
+    "state": "Massachusetts"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Raphael Warnock",
+    "party": "Democratic Party",
+    "state": "Georgia"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Jon Ossoff",
+    "party": "Democratic Party",
+    "state": "Georgia"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Marjorie Taylor Greene",
+    "party": "Republican Party",
+    "state": "Georgia"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Sherrod Brown",
+    "party": "Democratic Party",
+    "state": "Ohio"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "JD Vance",
+    "party": "Republican Party",
+    "state": "Ohio"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Jim Jordan",
+    "party": "Republican Party",
+    "state": "Ohio"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Amy Klobuchar",
+    "party": "Democratic Party",
+    "state": "Minnesota"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Tina Smith",
+    "party": "Democratic Party",
+    "state": "Minnesota"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Ilhan Omar",
+    "party": "Democratic Party",
+    "state": "Minnesota"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Cory Booker",
+    "party": "Democratic Party",
+    "state": "New Jersey"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Bob Menendez",
+    "party": "Democratic Party",
+    "state": "New Jersey"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Josh Gottheimer",
+    "party": "Democratic Party",
+    "state": "New Jersey"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "John Fetterman",
+    "party": "Democratic Party",
+    "state": "Pennsylvania"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Bob Casey",
+    "party": "Democratic Party",
+    "state": "Pennsylvania"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Madeleine Dean",
+    "party": "Democratic Party",
+    "state": "Pennsylvania"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Tim Scott",
+    "party": "Republican Party",
+    "state": "South Carolina"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Lindsey Graham",
+    "party": "Republican Party",
+    "state": "South Carolina"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Nancy Mace",
+    "party": "Republican Party",
+    "state": "South Carolina"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Mark Warner",
+    "party": "Democratic Party",
+    "state": "Virginia"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Tim Kaine",
+    "party": "Democratic Party",
+    "state": "Virginia"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Jennifer Wexton",
+    "party": "Democratic Party",
+    "state": "Virginia"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Ron Wyden",
+    "party": "Democratic Party",
+    "state": "Oregon"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Jeff Merkley",
+    "party": "Democratic Party",
+    "state": "Oregon"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Earl Blumenauer",
+    "party": "Democratic Party",
+    "state": "Oregon"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Patty Murray",
+    "party": "Democratic Party",
+    "state": "Washington"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Maria Cantwell",
+    "party": "Democratic Party",
+    "state": "Washington"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Pramila Jayapal",
+    "party": "Democratic Party",
+    "state": "Washington"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Mitch McConnell",
+    "party": "Republican Party",
+    "state": "Kentucky"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Rand Paul",
+    "party": "Republican Party",
+    "state": "Kentucky"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Thomas Massie",
+    "party": "Republican Party",
+    "state": "Kentucky"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Tommy Tuberville",
+    "party": "Republican Party",
+    "state": "Alabama"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Katie Britt",
+    "party": "Republican Party",
+    "state": "Alabama"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Terri Sewell",
+    "party": "Democratic Party",
+    "state": "Alabama"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Kyrsten Sinema",
+    "party": "Independent",
+    "state": "Arizona"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Mark Kelly",
+    "party": "Democratic Party",
+    "state": "Arizona"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Ruben Gallego",
+    "party": "Democratic Party",
+    "state": "Arizona"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "John Boozman",
+    "party": "Republican Party",
+    "state": "Arkansas"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Tom Cotton",
+    "party": "Republican Party",
+    "state": "Arkansas"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "French Hill",
+    "party": "Republican Party",
+    "state": "Arkansas"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Michael Bennet",
+    "party": "Democratic Party",
+    "state": "Colorado"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "John Hickenlooper",
+    "party": "Democratic Party",
+    "state": "Colorado"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Lauren Boebert",
+    "party": "Republican Party",
+    "state": "Colorado"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Chris Murphy",
+    "party": "Democratic Party",
+    "state": "Connecticut"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Richard Blumenthal",
+    "party": "Democratic Party",
+    "state": "Connecticut"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Jahana Hayes",
+    "party": "Democratic Party",
+    "state": "Connecticut"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Tom Carper",
+    "party": "Democratic Party",
+    "state": "Delaware"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Chris Coons",
+    "party": "Democratic Party",
+    "state": "Delaware"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Lisa Blunt Rochester",
+    "party": "Democratic Party",
+    "state": "Delaware"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Brian Schatz",
+    "party": "Democratic Party",
+    "state": "Hawaii"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Mazie Hirono",
+    "party": "Democratic Party",
+    "state": "Hawaii"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Ed Case",
+    "party": "Democratic Party",
+    "state": "Hawaii"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Mike Crapo",
+    "party": "Republican Party",
+    "state": "Idaho"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Jim Risch",
+    "party": "Republican Party",
+    "state": "Idaho"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Russ Fulcher",
+    "party": "Republican Party",
+    "state": "Idaho"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Todd Young",
+    "party": "Republican Party",
+    "state": "Indiana"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Mike Braun",
+    "party": "Republican Party",
+    "state": "Indiana"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Jim Banks",
+    "party": "Republican Party",
+    "state": "Indiana"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Chuck Grassley",
+    "party": "Republican Party",
+    "state": "Iowa"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Joni Ernst",
+    "party": "Republican Party",
+    "state": "Iowa"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Randy Feenstra",
+    "party": "Republican Party",
+    "state": "Iowa"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Jerry Moran",
+    "party": "Republican Party",
+    "state": "Kansas"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Roger Marshall",
+    "party": "Republican Party",
+    "state": "Kansas"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Sharice Davids",
+    "party": "Democratic Party",
+    "state": "Kansas"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Bill Cassidy",
+    "party": "Republican Party",
+    "state": "Louisiana"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "John Kennedy",
+    "party": "Republican Party",
+    "state": "Louisiana"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Steve Scalise",
+    "party": "Republican Party",
+    "state": "Louisiana"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Angus King",
+    "party": "Independent",
+    "state": "Maine"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Susan Collins",
+    "party": "Republican Party",
+    "state": "Maine"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Chellie Pingree",
+    "party": "Democratic Party",
+    "state": "Maine"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Ben Cardin",
+    "party": "Democratic Party",
+    "state": "Maryland"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Chris Van Hollen",
+    "party": "Democratic Party",
+    "state": "Maryland"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Jamie Raskin",
+    "party": "Democratic Party",
+    "state": "Maryland"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Gary Peters",
+    "party": "Democratic Party",
+    "state": "Michigan"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Debbie Stabenow",
+    "party": "Democratic Party",
+    "state": "Michigan"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Rashida Tlaib",
+    "party": "Democratic Party",
+    "state": "Michigan"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Roger Wicker",
+    "party": "Republican Party",
+    "state": "Mississippi"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Cindy Hyde-Smith",
+    "party": "Republican Party",
+    "state": "Mississippi"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Trent Kelly",
+    "party": "Republican Party",
+    "state": "Mississippi"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Josh Hawley",
+    "party": "Republican Party",
+    "state": "Missouri"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Eric Schmitt",
+    "party": "Republican Party",
+    "state": "Missouri"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Cori Bush",
+    "party": "Democratic Party",
+    "state": "Missouri"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Jon Tester",
+    "party": "Democratic Party",
+    "state": "Montana"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Steve Daines",
+    "party": "Republican Party",
+    "state": "Montana"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Ryan Zinke",
+    "party": "Republican Party",
+    "state": "Montana"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Deb Fischer",
+    "party": "Republican Party",
+    "state": "Nebraska"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Pete Ricketts",
+    "party": "Republican Party",
+    "state": "Nebraska"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Don Bacon",
+    "party": "Republican Party",
+    "state": "Nebraska"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Catherine Cortez Masto",
+    "party": "Democratic Party",
+    "state": "Nevada"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Jacky Rosen",
+    "party": "Democratic Party",
+    "state": "Nevada"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Dina Titus",
+    "party": "Democratic Party",
+    "state": "Nevada"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Jeanne Shaheen",
+    "party": "Democratic Party",
+    "state": "New Hampshire"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Maggie Hassan",
+    "party": "Democratic Party",
+    "state": "New Hampshire"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Chris Pappas",
+    "party": "Democratic Party",
+    "state": "New Hampshire"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Martin Heinrich",
+    "party": "Democratic Party",
+    "state": "New Mexico"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Ben Ray Luj\u00e1n",
+    "party": "Democratic Party",
+    "state": "New Mexico"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Teresa Leger Fernandez",
+    "party": "Democratic Party",
+    "state": "New Mexico"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Thom Tillis",
+    "party": "Republican Party",
+    "state": "North Carolina"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Ted Budd",
+    "party": "Republican Party",
+    "state": "North Carolina"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Deborah Ross",
+    "party": "Democratic Party",
+    "state": "North Carolina"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "John Hoeven",
+    "party": "Republican Party",
+    "state": "North Dakota"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Kevin Cramer",
+    "party": "Republican Party",
+    "state": "North Dakota"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Kelly Armstrong",
+    "party": "Republican Party",
+    "state": "North Dakota"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Mike Rounds",
+    "party": "Republican Party",
+    "state": "South Dakota"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "John Thune",
+    "party": "Republican Party",
+    "state": "South Dakota"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Dusty Johnson",
+    "party": "Republican Party",
+    "state": "South Dakota"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Marsha Blackburn",
+    "party": "Republican Party",
+    "state": "Tennessee"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Bill Hagerty",
+    "party": "Republican Party",
+    "state": "Tennessee"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Tim Burchett",
+    "party": "Republican Party",
+    "state": "Tennessee"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Mike Lee",
+    "party": "Republican Party",
+    "state": "Utah"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Mitt Romney",
+    "party": "Republican Party",
+    "state": "Utah"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Blake Moore",
+    "party": "Republican Party",
+    "state": "Utah"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Bernie Sanders",
+    "party": "Independent",
+    "state": "Vermont"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Peter Welch",
+    "party": "Democratic Party",
+    "state": "Vermont"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Becca Balint",
+    "party": "Democratic Party",
+    "state": "Vermont"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Ron Johnson",
+    "party": "Republican Party",
+    "state": "Wisconsin"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Tammy Baldwin",
+    "party": "Democratic Party",
+    "state": "Wisconsin"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Gwen Moore",
+    "party": "Democratic Party",
+    "state": "Wisconsin"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "John Barrasso",
+    "party": "Republican Party",
+    "state": "Wyoming"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Cynthia Lummis",
+    "party": "Republican Party",
+    "state": "Wyoming"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Harriet Hageman",
+    "party": "Republican Party",
+    "state": "Wyoming"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Gavin Newsom",
+    "party": "Democratic Party",
+    "state": "California"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Eleni Kounalakis",
+    "party": "Democratic Party",
+    "state": "California"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Rob Bonta",
+    "party": "Democratic Party",
+    "state": "California"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Kathy Hochul",
+    "party": "Democratic Party",
+    "state": "New York"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Antonio Delgado",
+    "party": "Democratic Party",
+    "state": "New York"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Letitia James",
+    "party": "Democratic Party",
+    "state": "New York"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Greg Abbott",
+    "party": "Republican Party",
+    "state": "Texas"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Dan Patrick",
+    "party": "Republican Party",
+    "state": "Texas"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Ken Paxton",
+    "party": "Republican Party",
+    "state": "Texas"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Ron DeSantis",
+    "party": "Republican Party",
+    "state": "Florida"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Jeanette Nu\u00f1ez",
+    "party": "Republican Party",
+    "state": "Florida"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Ashley Moody",
+    "party": "Republican Party",
+    "state": "Florida"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "J.B. Pritzker",
+    "party": "Democratic Party",
+    "state": "Illinois"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Juliana Stratton",
+    "party": "Democratic Party",
+    "state": "Illinois"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Kwame Raoul",
+    "party": "Democratic Party",
+    "state": "Illinois"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Maura Healey",
+    "party": "Democratic Party",
+    "state": "Massachusetts"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Kim Driscoll",
+    "party": "Democratic Party",
+    "state": "Massachusetts"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Andrea Campbell",
+    "party": "Democratic Party",
+    "state": "Massachusetts"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Brian Kemp",
+    "party": "Republican Party",
+    "state": "Georgia"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Burt Jones",
+    "party": "Republican Party",
+    "state": "Georgia"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Chris Carr",
+    "party": "Republican Party",
+    "state": "Georgia"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Mike DeWine",
+    "party": "Republican Party",
+    "state": "Ohio"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Jon Husted",
+    "party": "Republican Party",
+    "state": "Ohio"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Dave Yost",
+    "party": "Republican Party",
+    "state": "Ohio"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Tim Walz",
+    "party": "Democratic Party",
+    "state": "Minnesota"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Peggy Flanagan",
+    "party": "Democratic Party",
+    "state": "Minnesota"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Keith Ellison",
+    "party": "Democratic Party",
+    "state": "Minnesota"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Phil Murphy",
+    "party": "Democratic Party",
+    "state": "New Jersey"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Sheila Oliver",
+    "party": "Democratic Party",
+    "state": "New Jersey"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Matt Platkin",
+    "party": "Democratic Party",
+    "state": "New Jersey"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Josh Shapiro",
+    "party": "Democratic Party",
+    "state": "Pennsylvania"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Austin Davis",
+    "party": "Democratic Party",
+    "state": "Pennsylvania"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Michelle Henry",
+    "party": "Democratic Party",
+    "state": "Pennsylvania"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Henry McMaster",
+    "party": "Republican Party",
+    "state": "South Carolina"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Pamela Evette",
+    "party": "Republican Party",
+    "state": "South Carolina"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Alan Wilson",
+    "party": "Republican Party",
+    "state": "South Carolina"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Glenn Youngkin",
+    "party": "Republican Party",
+    "state": "Virginia"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Winsome Sears",
+    "party": "Republican Party",
+    "state": "Virginia"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Jason Miyares",
+    "party": "Republican Party",
+    "state": "Virginia"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Tina Kotek",
+    "party": "Democratic Party",
+    "state": "Oregon"
+  },
+  {
+    "level": "state",
+    "office": "Secretary of State",
+    "name": "LaVonne Griffin-Valade",
+    "party": "Democratic Party",
+    "state": "Oregon"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Ellen Rosenblum",
+    "party": "Democratic Party",
+    "state": "Oregon"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Jay Inslee",
+    "party": "Democratic Party",
+    "state": "Washington"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Denny Heck",
+    "party": "Democratic Party",
+    "state": "Washington"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Bob Ferguson",
+    "party": "Democratic Party",
+    "state": "Washington"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Andy Beshear",
+    "party": "Democratic Party",
+    "state": "Kentucky"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Jacqueline Coleman",
+    "party": "Democratic Party",
+    "state": "Kentucky"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Russell Coleman",
+    "party": "Republican Party",
+    "state": "Kentucky"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Kay Ivey",
+    "party": "Republican Party",
+    "state": "Alabama"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Will Ainsworth",
+    "party": "Republican Party",
+    "state": "Alabama"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Steve Marshall",
+    "party": "Republican Party",
+    "state": "Alabama"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Katie Hobbs",
+    "party": "Democratic Party",
+    "state": "Arizona"
+  },
+  {
+    "level": "state",
+    "office": "Secretary of State",
+    "name": "Adrian Fontes",
+    "party": "Democratic Party",
+    "state": "Arizona"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Kris Mayes",
+    "party": "Democratic Party",
+    "state": "Arizona"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Sarah Huckabee Sanders",
+    "party": "Republican Party",
+    "state": "Arkansas"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Leslie Rutledge",
+    "party": "Republican Party",
+    "state": "Arkansas"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Tim Griffin",
+    "party": "Republican Party",
+    "state": "Arkansas"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Jared Polis",
+    "party": "Democratic Party",
+    "state": "Colorado"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Dianne Primavera",
+    "party": "Democratic Party",
+    "state": "Colorado"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Phil Weiser",
+    "party": "Democratic Party",
+    "state": "Colorado"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Ned Lamont",
+    "party": "Democratic Party",
+    "state": "Connecticut"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Susan Bysiewicz",
+    "party": "Democratic Party",
+    "state": "Connecticut"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "William Tong",
+    "party": "Democratic Party",
+    "state": "Connecticut"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "John Carney",
+    "party": "Democratic Party",
+    "state": "Delaware"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Bethany Hall-Long",
+    "party": "Democratic Party",
+    "state": "Delaware"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Kathy Jennings",
+    "party": "Democratic Party",
+    "state": "Delaware"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Josh Green",
+    "party": "Democratic Party",
+    "state": "Hawaii"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Sylvia Luke",
+    "party": "Democratic Party",
+    "state": "Hawaii"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Anne Lopez",
+    "party": "Democratic Party",
+    "state": "Hawaii"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Brad Little",
+    "party": "Republican Party",
+    "state": "Idaho"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Scott Bedke",
+    "party": "Republican Party",
+    "state": "Idaho"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Ra\u00fal Labrador",
+    "party": "Republican Party",
+    "state": "Idaho"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Eric Holcomb",
+    "party": "Republican Party",
+    "state": "Indiana"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Suzanne Crouch",
+    "party": "Republican Party",
+    "state": "Indiana"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Todd Rokita",
+    "party": "Republican Party",
+    "state": "Indiana"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Kim Reynolds",
+    "party": "Republican Party",
+    "state": "Iowa"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Adam Gregg",
+    "party": "Republican Party",
+    "state": "Iowa"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Brenna Bird",
+    "party": "Republican Party",
+    "state": "Iowa"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Laura Kelly",
+    "party": "Democratic Party",
+    "state": "Kansas"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "David Toland",
+    "party": "Democratic Party",
+    "state": "Kansas"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Kris Kobach",
+    "party": "Republican Party",
+    "state": "Kansas"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Jeff Landry",
+    "party": "Republican Party",
+    "state": "Louisiana"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Billy Nungesser",
+    "party": "Republican Party",
+    "state": "Louisiana"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Liz Murrill",
+    "party": "Republican Party",
+    "state": "Louisiana"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Janet Mills",
+    "party": "Democratic Party",
+    "state": "Maine"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Aaron Frey",
+    "party": "Democratic Party",
+    "state": "Maine"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Wes Moore",
+    "party": "Democratic Party",
+    "state": "Maryland"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Aruna Miller",
+    "party": "Democratic Party",
+    "state": "Maryland"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Anthony Brown",
+    "party": "Democratic Party",
+    "state": "Maryland"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Gretchen Whitmer",
+    "party": "Democratic Party",
+    "state": "Michigan"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Garlin Gilchrist",
+    "party": "Democratic Party",
+    "state": "Michigan"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Dana Nessel",
+    "party": "Democratic Party",
+    "state": "Michigan"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Tate Reeves",
+    "party": "Republican Party",
+    "state": "Mississippi"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Delbert Hosemann",
+    "party": "Republican Party",
+    "state": "Mississippi"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Lynn Fitch",
+    "party": "Republican Party",
+    "state": "Mississippi"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Mike Parson",
+    "party": "Republican Party",
+    "state": "Missouri"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Mike Kehoe",
+    "party": "Republican Party",
+    "state": "Missouri"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Andrew Bailey",
+    "party": "Republican Party",
+    "state": "Missouri"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Greg Gianforte",
+    "party": "Republican Party",
+    "state": "Montana"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Kristen Juras",
+    "party": "Republican Party",
+    "state": "Montana"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Austin Knudsen",
+    "party": "Republican Party",
+    "state": "Montana"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Jim Pillen",
+    "party": "Republican Party",
+    "state": "Nebraska"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Joe Kelly",
+    "party": "Republican Party",
+    "state": "Nebraska"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Mike Hilgers",
+    "party": "Republican Party",
+    "state": "Nebraska"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Joe Lombardo",
+    "party": "Republican Party",
+    "state": "Nevada"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Stavros Anthony",
+    "party": "Republican Party",
+    "state": "Nevada"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Aaron Ford",
+    "party": "Democratic Party",
+    "state": "Nevada"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Chris Sununu",
+    "party": "Republican Party",
+    "state": "New Hampshire"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "John Formella",
+    "party": "Republican Party",
+    "state": "New Hampshire"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Michelle Lujan Grisham",
+    "party": "Democratic Party",
+    "state": "New Mexico"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Howie Morales",
+    "party": "Democratic Party",
+    "state": "New Mexico"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Ra\u00fal Torrez",
+    "party": "Democratic Party",
+    "state": "New Mexico"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Roy Cooper",
+    "party": "Democratic Party",
+    "state": "North Carolina"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Mark Robinson",
+    "party": "Republican Party",
+    "state": "North Carolina"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Josh Stein",
+    "party": "Democratic Party",
+    "state": "North Carolina"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Doug Burgum",
+    "party": "Republican Party",
+    "state": "North Dakota"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Tammy Miller",
+    "party": "Republican Party",
+    "state": "North Dakota"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Drew Wrigley",
+    "party": "Republican Party",
+    "state": "North Dakota"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Kristi Noem",
+    "party": "Republican Party",
+    "state": "South Dakota"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Larry Rhoden",
+    "party": "Republican Party",
+    "state": "South Dakota"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Marty Jackley",
+    "party": "Republican Party",
+    "state": "South Dakota"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Bill Lee",
+    "party": "Republican Party",
+    "state": "Tennessee"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Randy McNally",
+    "party": "Republican Party",
+    "state": "Tennessee"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Jonathan Skrmetti",
+    "party": "Republican Party",
+    "state": "Tennessee"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Spencer Cox",
+    "party": "Republican Party",
+    "state": "Utah"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Deidre Henderson",
+    "party": "Republican Party",
+    "state": "Utah"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Sean Reyes",
+    "party": "Republican Party",
+    "state": "Utah"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Phil Scott",
+    "party": "Republican Party",
+    "state": "Vermont"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "David Zuckerman",
+    "party": "Progressive Party",
+    "state": "Vermont"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Charity Clark",
+    "party": "Democratic Party",
+    "state": "Vermont"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Tony Evers",
+    "party": "Democratic Party",
+    "state": "Wisconsin"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Sara Rodriguez",
+    "party": "Democratic Party",
+    "state": "Wisconsin"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Josh Kaul",
+    "party": "Democratic Party",
+    "state": "Wisconsin"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Mark Gordon",
+    "party": "Republican Party",
+    "state": "Wyoming"
+  },
+  {
+    "level": "state",
+    "office": "Secretary of State",
+    "name": "Chuck Gray",
+    "party": "Republican Party",
+    "state": "Wyoming"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Bridget Hill",
+    "party": "Republican Party",
+    "state": "Wyoming"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Eric Adams",
+    "party": "Democratic Party",
+    "state": "New York",
+    "city": "New York City"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Karen Bass",
+    "party": "Democratic Party",
+    "state": "California",
+    "city": "Los Angeles"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Brandon Johnson",
+    "party": "Democratic Party",
+    "state": "Illinois",
+    "city": "Chicago"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Sylvester Turner",
+    "party": "Democratic Party",
+    "state": "Texas",
+    "city": "Houston"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Kate Gallego",
+    "party": "Democratic Party",
+    "state": "Arizona",
+    "city": "Phoenix"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Cherelle Parker",
+    "party": "Democratic Party",
+    "state": "Pennsylvania",
+    "city": "Philadelphia"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Ron Nirenberg",
+    "party": "Independent",
+    "state": "Texas",
+    "city": "San Antonio"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Todd Gloria",
+    "party": "Democratic Party",
+    "state": "California",
+    "city": "San Diego"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Eric Johnson",
+    "party": "Democratic Party",
+    "state": "Texas",
+    "city": "Dallas"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Matt Mahan",
+    "party": "Democratic Party",
+    "state": "California",
+    "city": "San Jose"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Tim Kelly",
+    "party": "Republican Party",
+    "state": "Tennessee",
+    "city": "Chattanooga"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Andre Dickens",
+    "party": "Democratic Party",
+    "state": "Georgia",
+    "city": "Atlanta"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Aftab Pureval",
+    "party": "Democratic Party",
+    "state": "Ohio",
+    "city": "Cincinnati"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Tishaura Jones",
+    "party": "Democratic Party",
+    "state": "Missouri",
+    "city": "St. Louis"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Justin Bibb",
+    "party": "Democratic Party",
+    "state": "Ohio",
+    "city": "Cleveland"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Michelle Wu",
+    "party": "Democratic Party",
+    "state": "Massachusetts",
+    "city": "Boston"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Bruce Harrell",
+    "party": "Democratic Party",
+    "state": "Washington",
+    "city": "Seattle"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Todd Gloria",
+    "party": "Democratic Party",
+    "state": "California",
+    "city": "San Diego"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Jim Kenney",
+    "party": "Democratic Party",
+    "state": "Pennsylvania",
+    "city": "Philadelphia"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "LaToya Cantrell",
+    "party": "Democratic Party",
+    "state": "Louisiana",
+    "city": "New Orleans"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Darrell Steinberg",
+    "party": "Democratic Party",
+    "state": "California",
+    "city": "Sacramento"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Eric Garcetti",
+    "party": "Democratic Party",
+    "state": "California",
+    "city": "Los Angeles"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Lori Lightfoot",
+    "party": "Democratic Party",
+    "state": "Illinois",
+    "city": "Chicago"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Bill de Blasio",
+    "party": "Democratic Party",
+    "state": "New York",
+    "city": "New York City"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Jenny Durkan",
+    "party": "Democratic Party",
+    "state": "Washington",
+    "city": "Seattle"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Ted Wheeler",
+    "party": "Democratic Party",
+    "state": "Oregon",
+    "city": "Portland"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Michael Hancock",
+    "party": "Democratic Party",
+    "state": "Colorado",
+    "city": "Denver"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Steve Adler",
+    "party": "Democratic Party",
+    "state": "Texas",
+    "city": "Austin"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Keisha Lance Bottoms",
+    "party": "Democratic Party",
+    "state": "Georgia",
+    "city": "Atlanta"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Marty Walsh",
+    "party": "Democratic Party",
+    "state": "Massachusetts",
+    "city": "Boston"
+  }
+]

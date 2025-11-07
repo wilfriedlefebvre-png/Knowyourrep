@@ -1,0 +1,15 @@
+{
+  "instructions": "To get accurate state paths that match your vintage map:",
+  "steps": [
+    "1. Open your vintage map image in Inkscape (free) or Adobe Illustrator",
+    "2. Create a new layer and trace each state boundary",
+    "3. For each state, copy the 'd' attribute from the path element",
+    "4. Add it to this JSON file with the state abbreviation as the key",
+    "5. Ensure the viewBox matches: '0 0 1000 600' or adjust accordingly"
+  ],
+  "example": {
+    "CA": "M 50 250 L 150 250 L 150 400 L 50 400 Z"
+  },
+  "states": {}
+}
+
