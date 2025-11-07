@@ -197,7 +197,8 @@ export default function Home() {
   useEffect(() => {
     const handleEsc = (event: KeyboardEvent) => {
       if (event.key === 'Escape' && showWikiModal) {
-        closeWikiModal();
+        setShowWikiModal(false);
+        setWiki(null);
       }
     };
 
