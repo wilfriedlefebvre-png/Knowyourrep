@@ -685,107 +685,104 @@ export default function Home() {
                 {state && ` in ${state}`}
               </p>
               <div className="grid gap-4">
-                {filtered.map((p, i) => (
-                  <div
-                    key={i}
-                    className="p-4 bg-white/95 backdrop-blur-sm border rounded-lg shadow-lg flex items-center justify-between gap-4 hover:shadow-xl transition-shadow"
-                  >
-                    <div className="flex items-center gap-4 flex-1">
-                          {(() => {
-                            const photoUrl = p.photoUrl || photoCache[p.name];
-                            const isFetching = fetchingPhotos.current.has(p.name);
-                            const hasFailed = failedPhotos.has(p.name);
-                            
-                            // Show photo if available and hasn't failed, otherwise show loading or initials
-                            if (photoUrl && !hasFailed) {
-                              return (
-                                <div className="relative w-20 h-20 flex-shrink-0">
-                                  <img
-                                    key={`${p.name}-photo-${photoUrl}`}
-                                    src={photoUrl}
-                                    alt={p.name}
-                                    className="w-20 h-20 object-cover rounded-full border-2 border-blue-200"
-                                    loading="lazy"
-                                    onError={(e) => {
-                                      // Mark this photo URL as failed
-                                      setFailedPhotos(prev => new Set(prev).add(p.name));
-                                      const img = e.currentTarget;
-                                      img.style.display = 'none';
-                                      
-                                      // If this was a direct photoUrl that failed, try fetching from Wikipedia
-                                      if (p.photoUrl && !photoCache[p.name] && !fetchingPhotos.current.has(p.name)) {
-                                        console.log(`🔄 Photo failed to load for ${p.name}, fetching from Wikipedia...`);
-                                        fetchPhotoForRep(p.name, true); // Force fetch even if in progress
-                                      }
-                                      
-                                      // Show initials fallback immediately
-                                      const parent = img.parentElement;
-                                      if (parent && !parent.querySelector('.initials-fallback')) {
-                                        const fallback = document.createElement('div');
-                                        fallback.className = 'w-20 h-20 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-2xl font-bold border-2 border-blue-200 initials-fallback absolute inset-0';
-                                        fallback.textContent = p.name.split(" ").map((n: string) => n[0]).join("");
-                                        parent.appendChild(fallback);
-                                      }
-                                    }}
-                                    onLoad={(loadEvent) => {
-                                      // Hide any initials fallback when image loads successfully
-                                      const parent = loadEvent.currentTarget.parentElement;
-                                      const fallback = parent?.querySelector('.initials-fallback');
-                                      if (fallback) {
-                                        fallback.remove();
-                                      }
-                                      // Remove from failed photos if it loads successfully
-                                      setFailedPhotos(prev => {
-                                        const newSet = new Set(prev);
-                                        newSet.delete(p.name);
-                                        return newSet;
-                                      });
-                                    }}
-                                  />
-                                  {isFetching && (
-                                    <div className="absolute inset-0 rounded-full bg-black bg-opacity-10 flex items-center justify-center">
-                                      <div className="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
-                                    </div>
-                                  )}
-                                </div>
-                              );
-                            } else {
-                              // Always try to fetch photo if not already fetching and no photoUrl or photoUrl failed
-                              if (!isFetching && !photoCache[p.name] && !failedPhotos.has(p.name)) {
-                                // Trigger fetch immediately for visible representatives
-                                fetchPhotoForRep(p.name);
-                              }
-                              return (
-                                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-2xl font-bold border-2 border-blue-200 relative flex-shrink-0">
-                                  {p.name
-                                    .split(" ")
-                                    .map((n: string) => n[0])
-                                    .join("")}
-                                  {isFetching && (
-                                    <div className="absolute inset-0 rounded-full bg-black bg-opacity-20 flex items-center justify-center">
-                                      <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-                                    </div>
-                                  )}
-                                </div>
-                              );
+                    {filtered.map((p, i) => (
+                      <div
+                        key={i}
+                        className="p-4 bg-white/95 backdrop-blur-sm border rounded-lg shadow-lg flex items-center gap-4 hover:shadow-xl transition-all duration-300 hover:bg-blue-50/50"
+                      >
+                        {(() => {
+                          const photoUrl = p.photoUrl || photoCache[p.name];
+                          const isFetching = fetchingPhotos.current.has(p.name);
+                          const hasFailed = failedPhotos.has(p.name);
+                          
+                          // Show photo if available and hasn't failed, otherwise show loading or initials
+                          if (photoUrl && !hasFailed) {
+                            return (
+                              <div className="relative w-20 h-20 flex-shrink-0">
+                                <img
+                                  key={`${p.name}-photo-${photoUrl}`}
+                                  src={photoUrl}
+                                  alt={p.name}
+                                  className="w-20 h-20 object-cover rounded-full border-2 border-blue-200"
+                                  loading="lazy"
+                                  onError={(e) => {
+                                    // Mark this photo URL as failed
+                                    setFailedPhotos(prev => new Set(prev).add(p.name));
+                                    const img = e.currentTarget;
+                                    img.style.display = 'none';
+                                    
+                                    // If this was a direct photoUrl that failed, try fetching from Wikipedia
+                                    if (p.photoUrl && !photoCache[p.name] && !fetchingPhotos.current.has(p.name)) {
+                                      console.log(`🔄 Photo failed to load for ${p.name}, fetching from Wikipedia...`);
+                                      fetchPhotoForRep(p.name, true); // Force fetch even if in progress
+                                    }
+                                    
+                                    // Show initials fallback immediately
+                                    const parent = img.parentElement;
+                                    if (parent && !parent.querySelector('.initials-fallback')) {
+                                      const fallback = document.createElement('div');
+                                      fallback.className = 'w-20 h-20 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-2xl font-bold border-2 border-blue-200 initials-fallback absolute inset-0';
+                                      fallback.textContent = p.name.split(" ").map((n: string) => n[0]).join("");
+                                      parent.appendChild(fallback);
+                                    }
+                                  }}
+                                  onLoad={(loadEvent) => {
+                                    // Hide any initials fallback when image loads successfully
+                                    const parent = loadEvent.currentTarget.parentElement;
+                                    const fallback = parent?.querySelector('.initials-fallback');
+                                    if (fallback) {
+                                      fallback.remove();
+                                    }
+                                    // Remove from failed photos if it loads successfully
+                                    setFailedPhotos(prev => {
+                                      const newSet = new Set(prev);
+                                      newSet.delete(p.name);
+                                      return newSet;
+                                    });
+                                  }}
+                                />
+                                {isFetching && (
+                                  <div className="absolute inset-0 rounded-full bg-black bg-opacity-10 flex items-center justify-center">
+                                    <div className="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+                                  </div>
+                                )}
+                              </div>
+                            );
+                          } else {
+                            // Always try to fetch photo if not already fetching and no photoUrl or photoUrl failed
+                            if (!isFetching && !photoCache[p.name] && !failedPhotos.has(p.name)) {
+                              // Trigger fetch immediately for visible representatives
+                              fetchPhotoForRep(p.name);
                             }
-                          })()}
-                      <div>
-                        <h2 className="text-xl font-semibold">{p.name}</h2>
-                        <p className="text-gray-700">{p.office}</p>
-                        <p className="text-sm text-gray-500">
-                          {p.party} — {p.city ? `${p.city}, ${p.state}` : p.state}
-                        </p>
+                            return (
+                              <div className="w-20 h-20 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-2xl font-bold border-2 border-blue-200 relative flex-shrink-0">
+                                {p.name
+                                  .split(" ")
+                                  .map((n: string) => n[0])
+                                  .join("")}
+                                {isFetching && (
+                                  <div className="absolute inset-0 rounded-full bg-black bg-opacity-20 flex items-center justify-center">
+                                    <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                                  </div>
+                                )}
+                              </div>
+                            );
+                          }
+                        })()}
+                        <div className="flex-1">
+                          <button
+                            onClick={() => fetchWiki(p.name)}
+                            className="text-xl font-semibold text-left hover:text-blue-600 transition-all duration-300 hover:opacity-80 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-300 rounded px-1 -ml-1"
+                          >
+                            {p.name}
+                          </button>
+                          <p className="text-gray-700">{p.office}</p>
+                          <p className="text-sm text-gray-500">
+                            {p.party} — {p.city ? `${p.city}, ${p.state}` : p.state}
+                          </p>
+                        </div>
                       </div>
-                    </div>
-                    <button
-                      onClick={() => fetchWiki(p.name)}
-                      className="px-4 py-2 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition-colors shadow-md whitespace-nowrap"
-                    >
-                      View Wiki
-                    </button>
-                  </div>
-                ))}
+                    ))}
               </div>
             </>
           ) : (
