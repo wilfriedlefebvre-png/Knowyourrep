@@ -5,7 +5,7 @@
     "name": "Donald Trump",
     "party": "Republican Party",
     "state": "All",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/330px-Donald_Trump_official_portrait.jpg"
   },
   {
     "level": "federal",
@@ -13,7 +13,7 @@
     "name": "JD Vance",
     "party": "Republican Party",
     "state": "All",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/JD_Vance_official_portrait.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/JD_Vance_official_portrait.jpg/330px-JD_Vance_official_portrait.jpg"
   },
   {
     "level": "federal",
@@ -21,7 +21,7 @@
     "name": "Mike Johnson",
     "party": "Republican Party",
     "state": "All",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Mike_Johnson_official_photo.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Mike_Johnson_official_photo.jpg/330px-Mike_Johnson_official_photo.jpg"
   },
   {
     "level": "federal",
@@ -29,7 +29,7 @@
     "name": "Dianne Feinstein",
     "party": "Democratic Party",
     "state": "California",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Dianne_Feinstein%2C_official_Senate_photo.jpg/200px-Dianne_Feinstein%2C_official_Senate_photo.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Dianne_Feinstein%2C_official_Senate_photo.jpg/330px-Dianne_Feinstein%2C_official_Senate_photo.jpg"
   },
   {
     "level": "federal",
@@ -37,7 +37,7 @@
     "name": "Alex Padilla",
     "party": "Democratic Party",
     "state": "California",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Alex_Padilla_117th_Congress_portrait.jpg/200px-Alex_Padilla_117th_Congress_portrait.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Alex_Padilla_117th_Congress_portrait.jpg/330px-Alex_Padilla_117th_Congress_portrait.jpg"
   },
   {
     "level": "federal",
@@ -45,7 +45,7 @@
     "name": "Nancy Pelosi",
     "party": "Democratic Party",
     "state": "California",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Nancy_Pelosi_2019.jpg/200px-Nancy_Pelosi_2019.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Nancy_Pelosi_2019.jpg/330px-Nancy_Pelosi_2019.jpg"
   },
   {
     "level": "federal",
@@ -53,7 +53,7 @@
     "name": "Kevin McCarthy",
     "party": "Republican Party",
     "state": "California",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Kevin_McCarthy_117th_Congress.jpg/200px-Kevin_McCarthy_117th_Congress.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Kevin_McCarthy_117th_Congress.jpg/330px-Kevin_McCarthy_117th_Congress.jpg"
   },
   {
     "level": "federal",
@@ -61,7 +61,7 @@
     "name": "Chuck Schumer",
     "party": "Democratic Party",
     "state": "New York",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Chuck_Schumer_117th_Congress.jpg/200px-Chuck_Schumer_117th_Congress.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Chuck_Schumer_official_photo.jpg/330px-Chuck_Schumer_official_photo.jpg"
   },
   {
     "level": "federal",
@@ -69,7 +69,7 @@
     "name": "Kirsten Gillibrand",
     "party": "Democratic Party",
     "state": "New York",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Kirsten_Gillibrand%2C_official_portrait%2C_116th_Congress.jpg/200px-Kirsten_Gillibrand%2C_official_portrait%2C_116th_Congress.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Kirsten_Gillibrand_official_photo.jpg/330px-Kirsten_Gillibrand_official_photo.jpg"
   },
   {
     "level": "federal",
@@ -77,7 +77,7 @@
     "name": "Hakeem Jeffries",
     "party": "Democratic Party",
     "state": "New York",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Hakeem_Jeffries_117th_Congress.jpg/200px-Hakeem_Jeffries_117th_Congress.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Hakeem_Jeffries_117th_Congress.jpg/330px-Hakeem_Jeffries_117th_Congress.jpg"
   },
   {
     "level": "federal",
@@ -85,7 +85,7 @@
     "name": "Ted Cruz",
     "party": "Republican Party",
     "state": "Texas",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Ted_Cruz%2C_official_portrait%2C_113th_Congress.jpg/200px-Ted_Cruz%2C_official_portrait%2C_113th_Congress.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Ted_Cruz_official_photo.jpg/330px-Ted_Cruz_official_photo.jpg"
   },
   {
     "level": "federal",
@@ -93,7 +93,7 @@
     "name": "John Cornyn",
     "party": "Republican Party",
     "state": "Texas",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/John_Cornyn%2C_official_portrait%2C_116th_Congress.jpg/200px-John_Cornyn%2C_official_portrait%2C_116th_Congress.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/John_Cornyn_official_photo.jpg/330px-John_Cornyn_official_photo.jpg"
   },
   {
     "level": "federal",
@@ -101,7 +101,7 @@
     "name": "Lizzie Fletcher",
     "party": "Democratic Party",
     "state": "Texas",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Lizzie_Fletcher%2C_official_portrait%2C_116th_Congress.jpg/200px-Lizzie_Fletcher%2C_official_portrait%2C_116th_Congress.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Lizzie_Fletcher_116th_Congress.jpg/330px-Lizzie_Fletcher_116th_Congress.jpg"
   },
   {
     "level": "federal",
@@ -109,7 +109,7 @@
     "name": "Dan Crenshaw",
     "party": "Republican Party",
     "state": "Texas",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Dan_Crenshaw%2C_official_portrait%2C_116th_Congress.jpg/200px-Dan_Crenshaw%2C_official_portrait%2C_116th_Congress.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dan_Crenshaw_116th_Congress.jpg/330px-Dan_Crenshaw_116th_Congress.jpg"
   },
   {
     "level": "federal",
@@ -221,7 +221,7 @@
     "name": "JD Vance",
     "party": "Republican Party",
     "state": "Ohio",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/January_2025_Official_Vice_Presidential_Portrait_of_JD_Vance.jpg/330px-January_2025_Official_Vice_Presidential_Portrait_of_JD_Vance.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/JD_Vance_official_portrait.jpg/330px-JD_Vance_official_portrait.jpg"
   },
   {
     "level": "federal",
@@ -938,7 +938,7 @@
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "Ben Ray Luján",
+    "name": "Ben Ray Luj\u00e1n",
     "party": "Democratic Party",
     "state": "New Mexico",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Ben_Ray_Luj%C3%A1n%2C_official_portrait_%28119th_Congress%29.jpg/330px-Ben_Ray_Luj%C3%A1n%2C_official_portrait_%28119th_Congress%29.jpg"
@@ -1226,7 +1226,7 @@
   {
     "level": "state",
     "office": "Lieutenant Governor",
-    "name": "Jeanette Nuñez",
+    "name": "Jeanette Nu\u00f1ez",
     "party": "Republican Party",
     "state": "Florida",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Jeanette_Nunez_official_photo_%28cropped_1%29.jpg/330px-Jeanette_Nunez_official_photo_%28cropped_1%29.jpg"
@@ -1714,7 +1714,7 @@
   {
     "level": "state",
     "office": "Attorney General",
-    "name": "Raúl Labrador",
+    "name": "Ra\u00fal Labrador",
     "party": "Republican Party",
     "state": "Idaho",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Raul_Labrador_115th.jpg/330px-Raul_Labrador_115th.jpg"
@@ -1757,7 +1757,7 @@
     "name": "Adam Gregg",
     "party": "Republican Party",
     "state": "Iowa",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Adam_Gregg_on_EPA_Iowa_state_action_tour.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Adam_Gregg_on_EPA_Iowa_state_action_tour.jpg/330px-Adam_Gregg_on_EPA_Iowa_state_action_tour.jpg"
   },
   {
     "level": "state",
@@ -1941,7 +1941,7 @@
     "name": "Kristen Juras",
     "party": "Republican Party",
     "state": "Montana",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Kristen_Juras.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Kristen_Juras.jpg/330px-Kristen_Juras.jpg"
   },
   {
     "level": "state",
@@ -2034,10 +2034,10 @@
   {
     "level": "state",
     "office": "Attorney General",
-    "name": "Raúl Torrez",
+    "name": "Ra\u00fal Torrez",
     "party": "Democratic Party",
     "state": "New Mexico",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Raúl_Torrez_New_Mexico_Attorney_General.jpg/200px-Raúl_Torrez_New_Mexico_Attorney_General.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Ra\u00fal_Torrez_New_Mexico_Attorney_General.jpg/200px-Ra\u00fal_Torrez_New_Mexico_Attorney_General.jpg"
   },
   {
     "level": "state",
@@ -2085,7 +2085,7 @@
     "name": "Drew Wrigley",
     "party": "Republican Party",
     "state": "North Dakota",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Drew_Wrigley_-_official_U.S._Attorney_portrait.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Drew_Wrigley_-_official_U.S._Attorney_portrait.jpg/330px-Drew_Wrigley_-_official_U.S._Attorney_portrait.jpg"
   },
   {
     "level": "state",
@@ -2418,7 +2418,7 @@
     "party": "Democratic Party",
     "state": "California",
     "city": "Sacramento",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Darrell_Steinberg_Mayoral_Portrait.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Darrell_Steinberg_Mayoral_Portrait.jpg/330px-Darrell_Steinberg_Mayoral_Portrait.jpg"
   },
   {
     "level": "local",
