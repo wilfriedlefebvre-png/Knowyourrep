@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import dynamic from "next/dynamic";
 
 // Load USA component client-side only to avoid SSR issues with react-usa-map
@@ -57,6 +57,35 @@ export default function Home() {
   const [wikiLoading, setWikiLoading] = useState(false);
   const [hoveredState, setHoveredState] = useState<string | null>(null);
   const [photoCache, setPhotoCache] = useState<{ [key: string]: string }>({});
+  
+  // Track fetching state to avoid duplicate requests
+  const fetchingPhotos = useRef<Set<string>>(new Set());
+
+  // Fetch photo for representative if missing
+  const fetchPhotoForRep = async (name: string) => {
+    // Don't fetch if already in cache or currently fetching
+    if (photoCache[name] || fetchingPhotos.current.has(name)) return;
+    
+    // Mark as fetching
+    fetchingPhotos.current.add(name);
+    
+    try {
+      const res = await fetch(`/api/wiki?title=${encodeURIComponent(name)}`);
+      if (!res.ok) {
+        fetchingPhotos.current.delete(name);
+        return;
+      }
+      
+      const data = await res.json();
+      if (data.image) {
+        setPhotoCache(prev => ({ ...prev, [name]: data.image }));
+      }
+    } catch (e) {
+      // Silently fail - will show initials instead
+    } finally {
+      fetchingPhotos.current.delete(name);
+    }
+  };
 
   useEffect(() => {
     fetch("/politicians.json")
@@ -117,6 +146,17 @@ export default function Home() {
     return levelMatch && stateMatch && cityMatch && partyMatch && searchMatch;
   });
 
+  // Pre-fetch photos when filtered results change
+  useEffect(() => {
+    filtered.forEach((rep) => {
+      if (!rep.photoUrl && !photoCache[rep.name] && !fetchingPhotos.current.has(rep.name)) {
+        // Fetch photo for visible representatives automatically
+        fetchPhotoForRep(rep.name);
+      }
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [filtered]);
+
   const handleStateClick = (stateName: string) => {
     console.log("State clicked in page.tsx:", stateName); // Debug log
     if (!stateName) {
@@ -158,24 +198,6 @@ export default function Home() {
       setWiki({ error: "No Wikipedia data found." });
     } finally {
       setWikiLoading(false);
-    }
-  };
-
-  // Fetch photo for representative if missing
-  const fetchPhotoForRep = async (name: string) => {
-    // Don't fetch if already in cache
-    if (photoCache[name]) return;
-    
-    try {
-      const res = await fetch(`/api/wiki?title=${encodeURIComponent(name)}`);
-      if (!res.ok) return;
-      
-      const data = await res.json();
-      if (data.image) {
-        setPhotoCache(prev => ({ ...prev, [name]: data.image }));
-      }
-    } catch (e) {
-      // Silently fail - will show initials instead
     }
   };
 
@@ -448,51 +470,51 @@ export default function Home() {
                     className="p-4 bg-white/95 backdrop-blur-sm border rounded-lg shadow-lg flex items-center justify-between gap-4 hover:shadow-xl transition-shadow"
                   >
                     <div className="flex items-center gap-4 flex-1">
-                      {(p.photoUrl || photoCache[p.name]) ? (
-                        <img
-                          src={p.photoUrl || photoCache[p.name]}
-                          alt={p.name}
-                          className="w-20 h-20 object-cover rounded-full border-2 border-blue-200"
-                          onError={(e) => {
-                            // If image fails to load, try to fetch from Wikipedia
-                            if (!photoCache[p.name] && !wikiLoading) {
-                              fetchPhotoForRep(p.name);
-                            }
-                            // Hide broken image and show initials
-                            e.currentTarget.style.display = 'none';
-                            const parent = e.currentTarget.parentElement;
-                            if (parent && !parent.querySelector('.initials-fallback')) {
-                              const fallback = document.createElement('div');
-                              fallback.className = 'w-20 h-20 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-2xl font-bold border-2 border-blue-200 initials-fallback';
-                              fallback.textContent = p.name.split(" ").map((n: string) => n[0]).join("");
-                              parent.appendChild(fallback);
-                            }
-                          }}
-                          onLoad={(e) => {
-                            // Remove any fallback if image loads successfully
-                            const parent = e.currentTarget.parentElement;
-                            const fallback = parent?.querySelector('.initials-fallback');
-                            if (fallback) {
-                              fallback.remove();
-                            }
-                          }}
-                        />
-                      ) : (
-                        <div 
-                          className="w-20 h-20 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-2xl font-bold border-2 border-blue-200 initials-fallback"
-                          onMouseEnter={() => {
-                            // Try to fetch photo when user hovers (lazy load)
-                            if (!photoCache[p.name] && !wikiLoading) {
-                              fetchPhotoForRep(p.name);
-                            }
-                          }}
-                        >
-                          {p.name
-                            .split(" ")
-                            .map((n: string) => n[0])
-                            .join("")}
-                        </div>
-                      )}
+                      {(() => {
+                        const photoUrl = p.photoUrl || photoCache[p.name];
+                        const isFetching = fetchingPhotos.current.has(p.name);
+                        
+                        // Show photo if available, otherwise show loading or initials
+                        if (photoUrl) {
+                          return (
+                            <img
+                              src={photoUrl}
+                              alt={p.name}
+                              className="w-20 h-20 object-cover rounded-full border-2 border-blue-200"
+                              onError={(e) => {
+                                // If image fails to load, hide it and show initials
+                                e.currentTarget.style.display = 'none';
+                                const parent = e.currentTarget.parentElement;
+                                if (parent && !parent.querySelector('.initials-fallback')) {
+                                  const fallback = document.createElement('div');
+                                  fallback.className = 'w-20 h-20 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-2xl font-bold border-2 border-blue-200 initials-fallback';
+                                  fallback.textContent = p.name.split(" ").map((n: string) => n[0]).join("");
+                                  parent.appendChild(fallback);
+                                }
+                              }}
+                            />
+                          );
+                        } else {
+                          // Show initials while fetching, but keep fetching in background
+                          if (!isFetching && !photoCache[p.name]) {
+                            // Trigger fetch if not already fetching
+                            setTimeout(() => fetchPhotoForRep(p.name), 0);
+                          }
+                          return (
+                            <div className="w-20 h-20 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-2xl font-bold border-2 border-blue-200 relative">
+                              {p.name
+                                .split(" ")
+                                .map((n: string) => n[0])
+                                .join("")}
+                              {isFetching && (
+                                <div className="absolute inset-0 rounded-full bg-black bg-opacity-20 flex items-center justify-center">
+                                  <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                                </div>
+                              )}
+                            </div>
+                          );
+                        }
+                      })()}
                       <div>
                         <h2 className="text-xl font-semibold">{p.name}</h2>
                         <p className="text-gray-700">{p.office}</p>
