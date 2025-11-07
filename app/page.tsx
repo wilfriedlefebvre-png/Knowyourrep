@@ -66,9 +66,9 @@ export default function Home() {
   const fetchingPhotos = useRef<Set<string>>(new Set());
 
   // Fetch photo for representative if missing - Enhanced version
-  const fetchPhotoForRep = async (name: string) => {
-    // Don't fetch if already in cache or currently fetching
-    if (photoCache[name] || fetchingPhotos.current.has(name)) return;
+  const fetchPhotoForRep = async (name: string, force: boolean = false) => {
+    // Don't fetch if already in cache (unless forced) or currently fetching
+    if (!force && (photoCache[name] || fetchingPhotos.current.has(name))) return;
     
     // Mark as fetching
     fetchingPhotos.current.add(name);
