@@ -60,11 +60,12 @@ export default function Home() {
   const [showAutocomplete, setShowAutocomplete] = useState(false);
   const [autocompleteSuggestions, setAutocompleteSuggestions] = useState<any[]>([]);
   const [selectedSuggestionIndex, setSelectedSuggestionIndex] = useState(-1);
+  const [failedPhotos, setFailedPhotos] = useState<Set<string>>(new Set());
   
   // Track fetching state to avoid duplicate requests
   const fetchingPhotos = useRef<Set<string>>(new Set());
 
-  // Fetch photo for representative if missing
+  // Fetch photo for representative if missing - Enhanced version
   const fetchPhotoForRep = async (name: string) => {
     // Don't fetch if already in cache or currently fetching
     if (photoCache[name] || fetchingPhotos.current.has(name)) return;
@@ -73,28 +74,42 @@ export default function Home() {
     fetchingPhotos.current.add(name);
     
     try {
-      // Find the representative to get their office for better search
+      // Find the representative to get their office and state for better search
       const rep = data.find((p: any) => p.name === name);
       const office = rep?.office || '';
+      const stateName = rep?.state || '';
+      const cityName = rep?.city || '';
       
-      // Try variations of the name to find Wikipedia page
+      // Try more variations of the name to find Wikipedia page
       const searchVariations = [
         name, // Try exact name first
+        `${name} (${office})`,
         `${name} (politician)`,
         `${name} (American politician)`,
-        `${name} (${office})`,
-      ];
+        `${name} (${stateName} ${office})`,
+        `${name} (${office}, ${stateName})`,
+        cityName ? `${name} (mayor)` : null,
+        cityName ? `${name} (${cityName} mayor)` : null,
+        stateName ? `${name} (${stateName})` : null,
+      ].filter(Boolean) as string[];
       
       let foundImage = null;
       
-      for (const variation of searchVariations) {
+      // Try each variation with a small delay between attempts
+      for (let i = 0; i < searchVariations.length; i++) {
+        const variation = searchVariations[i];
         try {
+          // Add small delay to avoid rate limiting
+          if (i > 0) {
+            await new Promise(resolve => setTimeout(resolve, 100));
+          }
+          
           const res = await fetch(`/api/wiki?title=${encodeURIComponent(variation)}`);
           if (!res.ok) continue;
           
-          const data = await res.json();
-          if (data.image) {
-            foundImage = data.image;
+          const responseData = await res.json();
+          if (responseData.image) {
+            foundImage = responseData.image;
             break; // Found a photo, stop searching
           }
         } catch (e) {
@@ -105,6 +120,12 @@ export default function Home() {
       
       if (foundImage) {
         setPhotoCache(prev => ({ ...prev, [name]: foundImage }));
+        // Remove from failed photos if we found a new one
+        setFailedPhotos(prev => {
+          const newSet = new Set(prev);
+          newSet.delete(name);
+          return newSet;
+        });
       }
     } catch (e) {
       // Silently fail - will show initials instead
@@ -118,16 +139,35 @@ export default function Home() {
       .then((res) => res.json())
       .then((d) => {
         setData(d);
-        // Start fetching photos for all representatives without photos
-        // Use a more aggressive approach with batching
-        const repsWithoutPhotos = d.filter((rep: any) => !rep.photoUrl);
-        repsWithoutPhotos.forEach((rep: any, index: number) => {
-          // Stagger requests to avoid overwhelming the API
-          // But start fetching immediately for visible ones
-          setTimeout(() => {
-            fetchPhotoForRep(rep.name);
-          }, index * 200); // 200ms delay to be respectful to Wikipedia API
-        });
+        
+        // Start fetching photos for ALL representatives (even those with photoUrl)
+        // This ensures we have backups and can replace broken URLs
+        // Wait a bit after initial load to avoid overwhelming the API
+        setTimeout(() => {
+          const allReps = d as any[];
+          
+          // First, fetch for those without photos immediately
+          const repsWithoutPhotos = allReps.filter((rep: any) => !rep.photoUrl);
+          console.log(`🖼️ Auto-fetching photos for ${repsWithoutPhotos.length} representatives without photos...`);
+          
+          repsWithoutPhotos.forEach((rep: any, index: number) => {
+            setTimeout(() => {
+              fetchPhotoForRep(rep.name);
+            }, index * 150); // 150ms delay between requests
+          });
+          
+          // Also prefetch for those with photos (as backup) but with longer delay
+          const repsWithPhotos = allReps.filter((rep: any) => rep.photoUrl);
+          repsWithPhotos.forEach((rep: any, index: number) => {
+            // Start after the first batch, with longer delays
+            setTimeout(() => {
+              // Only fetch if not already cached and not currently fetching
+              if (!photoCache[rep.name] && !fetchingPhotos.current.has(rep.name)) {
+                fetchPhotoForRep(rep.name);
+              }
+            }, (repsWithoutPhotos.length * 150) + (index * 300)); // Start after first batch, longer delays
+          });
+        }, 1000); // Wait 1 second after data loads
       });
   }, []);
 
@@ -651,51 +691,62 @@ export default function Home() {
                     className="p-4 bg-white/95 backdrop-blur-sm border rounded-lg shadow-lg flex items-center justify-between gap-4 hover:shadow-xl transition-shadow"
                   >
                     <div className="flex items-center gap-4 flex-1">
-                      {(() => {
-                        const photoUrl = p.photoUrl || photoCache[p.name];
-                        const isFetching = fetchingPhotos.current.has(p.name);
-                        
-                        // Show photo if available, otherwise show loading or initials
-                        if (photoUrl) {
-                          return (
-                            <img
-                              src={photoUrl}
-                              alt={p.name}
-                              className="w-20 h-20 object-cover rounded-full border-2 border-blue-200"
-                              onError={(e) => {
-                                // If image fails to load, hide it and show initials
-                                e.currentTarget.style.display = 'none';
-                                const parent = e.currentTarget.parentElement;
-                                if (parent && !parent.querySelector('.initials-fallback')) {
-                                  const fallback = document.createElement('div');
-                                  fallback.className = 'w-20 h-20 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-2xl font-bold border-2 border-blue-200 initials-fallback';
-                                  fallback.textContent = p.name.split(" ").map((n: string) => n[0]).join("");
-                                  parent.appendChild(fallback);
-                                }
-                              }}
-                            />
-                          );
-                        } else {
-                          // Always try to fetch photo if not already fetching
-                          if (!isFetching && !photoCache[p.name]) {
-                            // Trigger fetch immediately for visible representatives
-                            fetchPhotoForRep(p.name);
-                          }
-                          return (
-                            <div className="w-20 h-20 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-2xl font-bold border-2 border-blue-200 relative">
-                              {p.name
-                                .split(" ")
-                                .map((n: string) => n[0])
-                                .join("")}
-                              {isFetching && (
-                                <div className="absolute inset-0 rounded-full bg-black bg-opacity-20 flex items-center justify-center">
-                                  <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                          {(() => {
+                            const photoUrl = p.photoUrl || photoCache[p.name];
+                            const isFetching = fetchingPhotos.current.has(p.name);
+                            const hasFailed = failedPhotos.has(p.name);
+                            
+                            // Show photo if available and hasn't failed, otherwise show loading or initials
+                            if (photoUrl && !hasFailed) {
+                              return (
+                                <img
+                                  key={`${p.name}-${photoUrl}`}
+                                  src={photoUrl}
+                                  alt={p.name}
+                                  className="w-20 h-20 object-cover rounded-full border-2 border-blue-200"
+                                  onError={(e) => {
+                                    // Mark this photo URL as failed
+                                    setFailedPhotos(prev => new Set(prev).add(p.name));
+                                    e.currentTarget.style.display = 'none';
+                                    
+                                    // If this was a direct photoUrl that failed, try fetching from Wikipedia
+                                    if (p.photoUrl && !photoCache[p.name] && !fetchingPhotos.current.has(p.name)) {
+                                      console.log(`🔄 Photo failed to load for ${p.name}, fetching from Wikipedia...`);
+                                      fetchPhotoForRep(p.name, true); // Force fetch even if in progress
+                                    }
+                                    
+                                    // Show initials fallback
+                                    const parent = e.currentTarget.parentElement;
+                                    if (parent && !parent.querySelector('.initials-fallback')) {
+                                      const fallback = document.createElement('div');
+                                      fallback.className = 'w-20 h-20 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-2xl font-bold border-2 border-blue-200 initials-fallback';
+                                      fallback.textContent = p.name.split(" ").map((n: string) => n[0]).join("");
+                                      parent.appendChild(fallback);
+                                    }
+                                  }}
+                                />
+                              );
+                            } else {
+                              // Always try to fetch photo if not already fetching and no photoUrl or photoUrl failed
+                              if (!isFetching && !photoCache[p.name] && !failedPhotos.has(p.name)) {
+                                // Trigger fetch immediately for visible representatives
+                                fetchPhotoForRep(p.name);
+                              }
+                              return (
+                                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-2xl font-bold border-2 border-blue-200 relative">
+                                  {p.name
+                                    .split(" ")
+                                    .map((n: string) => n[0])
+                                    .join("")}
+                                  {isFetching && (
+                                    <div className="absolute inset-0 rounded-full bg-black bg-opacity-20 flex items-center justify-center">
+                                      <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                                    </div>
+                                  )}
                                 </div>
-                              )}
-                            </div>
-                          );
-                        }
-                      })()}
+                              );
+                            }
+                          })()}
                       <div>
                         <h2 className="text-xl font-semibold">{p.name}</h2>
                         <p className="text-gray-700">{p.office}</p>

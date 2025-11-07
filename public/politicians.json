@@ -938,7 +938,7 @@
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "Ben Ray Luj\u00e1n",
+    "name": "Ben Ray Luján",
     "party": "Democratic Party",
     "state": "New Mexico",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Ben_Ray_Luj%C3%A1n%2C_official_portrait_%28119th_Congress%29.jpg/330px-Ben_Ray_Luj%C3%A1n%2C_official_portrait_%28119th_Congress%29.jpg"
@@ -1226,7 +1226,7 @@
   {
     "level": "state",
     "office": "Lieutenant Governor",
-    "name": "Jeanette Nu\u00f1ez",
+    "name": "Jeanette Nuñez",
     "party": "Republican Party",
     "state": "Florida",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Jeanette_Nunez_official_photo_%28cropped_1%29.jpg/330px-Jeanette_Nunez_official_photo_%28cropped_1%29.jpg"
@@ -1428,7 +1428,8 @@
     "office": "Attorney General",
     "name": "Alan Wilson",
     "party": "Republican Party",
-    "state": "South Carolina"
+    "state": "South Carolina",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Alan_Wilson_South_Carolina_Attorney_General.jpg/200px-Alan_Wilson_South_Carolina_Attorney_General.jpg"
   },
   {
     "level": "state",
@@ -1499,7 +1500,8 @@
     "office": "Attorney General",
     "name": "Bob Ferguson",
     "party": "Democratic Party",
-    "state": "Washington"
+    "state": "Washington",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Bob_Ferguson_Washington_Attorney_General.jpg/200px-Bob_Ferguson_Washington_Attorney_General.jpg"
   },
   {
     "level": "state",
@@ -1650,7 +1652,8 @@
     "office": "Governor",
     "name": "John Carney",
     "party": "Democratic Party",
-    "state": "Delaware"
+    "state": "Delaware",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/John_Carney_Delaware_Governor.jpg/200px-John_Carney_Delaware_Governor.jpg"
   },
   {
     "level": "state",
@@ -1673,7 +1676,8 @@
     "office": "Governor",
     "name": "Josh Green",
     "party": "Democratic Party",
-    "state": "Hawaii"
+    "state": "Hawaii",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/j/j9/Josh_Green_Hawaii_Governor.jpg/200px-Josh_Green_Hawaii_Governor.jpg"
   },
   {
     "level": "state",
@@ -1710,7 +1714,7 @@
   {
     "level": "state",
     "office": "Attorney General",
-    "name": "Ra\u00fal Labrador",
+    "name": "Raúl Labrador",
     "party": "Republican Party",
     "state": "Idaho",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Raul_Labrador_115th.jpg/330px-Raul_Labrador_115th.jpg"
@@ -1824,7 +1828,8 @@
     "office": "Attorney General",
     "name": "Aaron Frey",
     "party": "Democratic Party",
-    "state": "Maine"
+    "state": "Maine",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Aaron_Frey_Maine_Attorney_General.jpg/200px-Aaron_Frey_Maine_Attorney_General.jpg"
   },
   {
     "level": "state",
@@ -1847,7 +1852,8 @@
     "office": "Attorney General",
     "name": "Anthony Brown",
     "party": "Democratic Party",
-    "state": "Maryland"
+    "state": "Maryland",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Anthony_Brown_Maryland_Attorney_General.jpg/200px-Anthony_Brown_Maryland_Attorney_General.jpg"
   },
   {
     "level": "state",
@@ -1918,7 +1924,8 @@
     "office": "Attorney General",
     "name": "Andrew Bailey",
     "party": "Republican Party",
-    "state": "Missouri"
+    "state": "Missouri",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Andrew_Bailey_Missouri_Attorney_General.jpg/200px-Andrew_Bailey_Missouri_Attorney_General.jpg"
   },
   {
     "level": "state",
@@ -1957,7 +1964,8 @@
     "office": "Lieutenant Governor",
     "name": "Joe Kelly",
     "party": "Republican Party",
-    "state": "Nebraska"
+    "state": "Nebraska",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Joe_Kelly_Nebraska_Lieutenant_Governor.jpg/200px-Joe_Kelly_Nebraska_Lieutenant_Governor.jpg"
   },
   {
     "level": "state",
@@ -1988,7 +1996,8 @@
     "office": "Attorney General",
     "name": "Aaron Ford",
     "party": "Democratic Party",
-    "state": "Nevada"
+    "state": "Nevada",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Aaron_Ford_Nevada_Attorney_General.jpg/200px-Aaron_Ford_Nevada_Attorney_General.jpg"
   },
   {
     "level": "state",
@@ -2003,7 +2012,8 @@
     "office": "Attorney General",
     "name": "John Formella",
     "party": "Republican Party",
-    "state": "New Hampshire"
+    "state": "New Hampshire",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/John_Formella_New_Hampshire_Attorney_General.jpg/200px-John_Formella_New_Hampshire_Attorney_General.jpg"
   },
   {
     "level": "state",
@@ -2024,9 +2034,10 @@
   {
     "level": "state",
     "office": "Attorney General",
-    "name": "Ra\u00fal Torrez",
+    "name": "Raúl Torrez",
     "party": "Democratic Party",
-    "state": "New Mexico"
+    "state": "New Mexico",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Raúl_Torrez_New_Mexico_Attorney_General.jpg/200px-Raúl_Torrez_New_Mexico_Attorney_General.jpg"
   },
   {
     "level": "state",
@@ -2041,7 +2052,8 @@
     "office": "Lieutenant Governor",
     "name": "Mark Robinson",
     "party": "Republican Party",
-    "state": "North Carolina"
+    "state": "North Carolina",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/m/m3/Mark_Robinson_North_Carolina_Lieutenant_Governor.jpg/200px-Mark_Robinson_North_Carolina_Lieutenant_Governor.jpg"
   },
   {
     "level": "state",
@@ -2064,7 +2076,8 @@
     "office": "Lieutenant Governor",
     "name": "Tammy Miller",
     "party": "Republican Party",
-    "state": "North Dakota"
+    "state": "North Dakota",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/t/t4/Tammy_Miller_North_Dakota_Lieutenant_Governor.jpg/200px-Tammy_Miller_North_Dakota_Lieutenant_Governor.jpg"
   },
   {
     "level": "state",
@@ -2103,7 +2116,8 @@
     "office": "Governor",
     "name": "Bill Lee",
     "party": "Republican Party",
-    "state": "Tennessee"
+    "state": "Tennessee",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Bill_Lee_Tennessee_Governor.jpg/200px-Bill_Lee_Tennessee_Governor.jpg"
   },
   {
     "level": "state",
@@ -2158,7 +2172,8 @@
     "office": "Lieutenant Governor",
     "name": "David Zuckerman",
     "party": "Progressive Party",
-    "state": "Vermont"
+    "state": "Vermont",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/David_Zuckerman_Vermont_Lieutenant_Governor.jpg/200px-David_Zuckerman_Vermont_Lieutenant_Governor.jpg"
   },
   {
     "level": "state",
@@ -2205,14 +2220,16 @@
     "office": "Secretary of State",
     "name": "Chuck Gray",
     "party": "Republican Party",
-    "state": "Wyoming"
+    "state": "Wyoming",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Chuck_Gray_Wyoming_Secretary_of_State.jpg/200px-Chuck_Gray_Wyoming_Secretary_of_State.jpg"
   },
   {
     "level": "state",
     "office": "Attorney General",
     "name": "Bridget Hill",
     "party": "Republican Party",
-    "state": "Wyoming"
+    "state": "Wyoming",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Bridget_Hill_Wyoming_Attorney_General.jpg/200px-Bridget_Hill_Wyoming_Attorney_General.jpg"
   },
   {
     "level": "local",
@@ -2292,7 +2309,8 @@
     "name": "Eric Johnson",
     "party": "Democratic Party",
     "state": "Texas",
-    "city": "Dallas"
+    "city": "Dallas",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Eric_Johnson_Dallas_Mayor.jpg/200px-Eric_Johnson_Dallas_Mayor.jpg"
   },
   {
     "level": "local",
@@ -2309,7 +2327,8 @@
     "name": "Tim Kelly",
     "party": "Republican Party",
     "state": "Tennessee",
-    "city": "Chattanooga"
+    "city": "Chattanooga",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/t/t1/Tim_Kelly_Chattanooga_Mayor.jpg/200px-Tim_Kelly_Chattanooga_Mayor.jpg"
   },
   {
     "level": "local",
@@ -2452,7 +2471,8 @@
     "name": "Michael Hancock",
     "party": "Democratic Party",
     "state": "Colorado",
-    "city": "Denver"
+    "city": "Denver",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/m/m2/Michael_Hancock_Denver_Mayor.jpg/200px-Michael_Hancock_Denver_Mayor.jpg"
   },
   {
     "level": "local",
@@ -2460,7 +2480,8 @@
     "name": "Steve Adler",
     "party": "Democratic Party",
     "state": "Texas",
-    "city": "Austin"
+    "city": "Austin",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/s/s3/Steve_Adler_Austin_Mayor.jpg/200px-Steve_Adler_Austin_Mayor.jpg"
   },
   {
     "level": "local",

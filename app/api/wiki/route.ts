@@ -19,7 +19,9 @@ export async function GET(req: Request) {
     `&prop=pageimages|extracts` +
     `&exintro=1&explaintext=1` +
     `&redirects=1` +
-    `&piprop=thumbnail&pithumbsize=300` +
+    `&piprop=thumbnail|original` +
+    `&pithumbsize=400` +
+    `&pilimit=1` +
     `&titles=${encodeURIComponent(title)}`;
 
   const res = await fetch(url, {
@@ -50,10 +52,20 @@ export async function GET(req: Request) {
     );
   }
 
+  // Try to get the best available image
+  let imageUrl = null;
+  if (page.thumbnail?.source) {
+    // Use thumbnail, but try to get a larger version if available
+    imageUrl = page.thumbnail.source.replace(/\/\d+px-/, '/400px-');
+  } else if (page.original?.source) {
+    // Use original image if thumbnail not available
+    imageUrl = page.original.source;
+  }
+
   const result = {
     title: page.title,
     summary: page.extract || "",
-    image: page.thumbnail?.source || null,
+    image: imageUrl,
     url: `https://en.wikipedia.org/?curid=${page.pageid}`,
   };
 
