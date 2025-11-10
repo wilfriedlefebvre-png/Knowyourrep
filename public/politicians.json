@@ -1,6 +1,30 @@
 [
   {
     "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Katie Britt",
+    "party": "Republican Party",
+    "state": "Alabama",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Katie_Britt.jpg/330px-Katie_Britt.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Terri Sewell",
+    "party": "Democratic Party",
+    "state": "Alabama",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Terri_Sewell_official_photo.jpg/330px-Terri_Sewell_official_photo.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Tommy Tuberville",
+    "party": "Republican Party",
+    "state": "Alabama",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Tommy_tuberville.jpg/330px-Tommy_tuberville.jpg"
+  },
+  {
+    "level": "federal",
     "office": "President of the United States",
     "name": "Donald Trump",
     "party": "Republican Party",
@@ -22,430 +46,6 @@
     "party": "Republican Party",
     "state": "All",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Mike_Johnson_official_photo.jpg/330px-Mike_Johnson_official_photo.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Dianne Feinstein",
-    "party": "Democratic Party",
-    "state": "California",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Dianne_Feinstein%2C_official_Senate_photo.jpg/330px-Dianne_Feinstein%2C_official_Senate_photo.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Alex Padilla",
-    "party": "Democratic Party",
-    "state": "California",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Alex_Padilla_117th_Congress_portrait.jpg/330px-Alex_Padilla_117th_Congress_portrait.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Nancy Pelosi",
-    "party": "Democratic Party",
-    "state": "California",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Nancy_Pelosi_2019.jpg/330px-Nancy_Pelosi_2019.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Kevin McCarthy",
-    "party": "Republican Party",
-    "state": "California",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Kevin_McCarthy_117th_Congress.jpg/330px-Kevin_McCarthy_117th_Congress.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Chuck Schumer",
-    "party": "Democratic Party",
-    "state": "New York",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Chuck_Schumer_official_photo.jpg/330px-Chuck_Schumer_official_photo.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Kirsten Gillibrand",
-    "party": "Democratic Party",
-    "state": "New York",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Kirsten_Gillibrand_official_photo.jpg/330px-Kirsten_Gillibrand_official_photo.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Hakeem Jeffries",
-    "party": "Democratic Party",
-    "state": "New York",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Hakeem_Jeffries_117th_Congress.jpg/330px-Hakeem_Jeffries_117th_Congress.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Ted Cruz",
-    "party": "Republican Party",
-    "state": "Texas",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Ted_Cruz_official_photo.jpg/330px-Ted_Cruz_official_photo.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "John Cornyn",
-    "party": "Republican Party",
-    "state": "Texas",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/John_Cornyn_official_photo.jpg/330px-John_Cornyn_official_photo.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Lizzie Fletcher",
-    "party": "Democratic Party",
-    "state": "Texas",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Lizzie_Fletcher_116th_Congress.jpg/330px-Lizzie_Fletcher_116th_Congress.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Dan Crenshaw",
-    "party": "Republican Party",
-    "state": "Texas",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dan_Crenshaw_116th_Congress.jpg/330px-Dan_Crenshaw_116th_Congress.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Marco Rubio",
-    "party": "Republican Party",
-    "state": "Florida",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Official_portrait_of_Secretary_Marco_Rubio_%28cropped%29%282%29.jpg/330px-Official_portrait_of_Secretary_Marco_Rubio_%28cropped%29%282%29.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Rick Scott",
-    "party": "Republican Party",
-    "state": "Florida",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Official_Portrait_of_Senator_Rick_Scott_%28R-FL%29.jpg/330px-Official_Portrait_of_Senator_Rick_Scott_%28R-FL%29.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Matt Gaetz",
-    "party": "Republican Party",
-    "state": "Florida",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Matt_Gaetz_117th_Congress_portrait_%28crop%29.jpg/330px-Matt_Gaetz_117th_Congress_portrait_%28crop%29.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Dick Durbin",
-    "party": "Democratic Party",
-    "state": "Illinois",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Dick_Durbin_117th_Congress_portrait_%281%29_%28crop%29.jpeg/330px-Dick_Durbin_117th_Congress_portrait_%281%29_%28crop%29.jpeg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Tammy Duckworth",
-    "party": "Democratic Party",
-    "state": "Illinois",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Tammy_Duckworth%2C_official_portrait%2C_115th_Congress.jpg/330px-Tammy_Duckworth%2C_official_portrait%2C_115th_Congress.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Danny Davis",
-    "party": "Democratic Party",
-    "state": "Illinois",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Danny_Davis%2C_official_portrait%2C_116th_Congress.jpg/200px-Danny_Davis%2C_official_portrait%2C_116th_Congress.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Elizabeth Warren",
-    "party": "Democratic Party",
-    "state": "Massachusetts",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Elizabeth-warren-2022_%28cropped%29.jpg/330px-Elizabeth-warren-2022_%28cropped%29.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Ed Markey",
-    "party": "Democratic Party",
-    "state": "Massachusetts",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Edward_Markey%2C_official_portrait%2C_114th_Congress.jpg/330px-Edward_Markey%2C_official_portrait%2C_114th_Congress.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Ayanna Pressley",
-    "party": "Democratic Party",
-    "state": "Massachusetts",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Rep._Ayanna_Pressley%2C_117th_Congress.jpg/330px-Rep._Ayanna_Pressley%2C_117th_Congress.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Raphael Warnock",
-    "party": "Democratic Party",
-    "state": "Georgia",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Raphael_Warnock_official_photo.jpg/330px-Raphael_Warnock_official_photo.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Jon Ossoff",
-    "party": "Democratic Party",
-    "state": "Georgia",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Jon_Ossoff_Senate_Portrait_2021.jpg/330px-Jon_Ossoff_Senate_Portrait_2021.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Marjorie Taylor Greene",
-    "party": "Republican Party",
-    "state": "Georgia",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Marjorie_Taylor_Greene_%28cropped%29.jpg/330px-Marjorie_Taylor_Greene_%28cropped%29.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Sherrod Brown",
-    "party": "Democratic Party",
-    "state": "Ohio",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Sherrod_Brown_117th_Congress_%282%29.jpg/330px-Sherrod_Brown_117th_Congress_%282%29.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "JD Vance",
-    "party": "Republican Party",
-    "state": "Ohio",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/JD_Vance_official_portrait.jpg/330px-JD_Vance_official_portrait.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Jim Jordan",
-    "party": "Republican Party",
-    "state": "Ohio",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Jim_Jordan_official_photo%2C_114th_Congress.jpg/330px-Jim_Jordan_official_photo%2C_114th_Congress.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Amy Klobuchar",
-    "party": "Democratic Party",
-    "state": "Minnesota",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Amy_Klobuchar%2C_official_portrait%2C_113th_Congress.jpg/330px-Amy_Klobuchar%2C_official_portrait%2C_113th_Congress.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Tina Smith",
-    "party": "Democratic Party",
-    "state": "Minnesota",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Tina_Smith%2C_official_portrait%2C_116th_congress.jpg/330px-Tina_Smith%2C_official_portrait%2C_116th_congress.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Ilhan Omar",
-    "party": "Democratic Party",
-    "state": "Minnesota",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Ilhan_Omar%2C_official_portrait%2C_116th_Congress_%28cropped%29_A.jpg/330px-Ilhan_Omar%2C_official_portrait%2C_116th_Congress_%28cropped%29_A.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Cory Booker",
-    "party": "Democratic Party",
-    "state": "New Jersey",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Cory_Booker%2C_official_portrait_%28119th_Congress%29.jpg/330px-Cory_Booker%2C_official_portrait_%28119th_Congress%29.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Bob Menendez",
-    "party": "Democratic Party",
-    "state": "New Jersey",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Senator_Bob_Menendez_%282022%29.jpg/330px-Senator_Bob_Menendez_%282022%29.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Josh Gottheimer",
-    "party": "Democratic Party",
-    "state": "New Jersey",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Josh_Gottheimer%2C_official_portrait%2C_115th_Congress_%28cropped%29.jpg/330px-Josh_Gottheimer%2C_official_portrait%2C_115th_Congress_%28cropped%29.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "John Fetterman",
-    "party": "Democratic Party",
-    "state": "Pennsylvania",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/John_Fetterman_official_portrait.jpg/330px-John_Fetterman_official_portrait.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Bob Casey",
-    "party": "Democratic Party",
-    "state": "Pennsylvania",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Bob_Casey_Jr._official_Senate_photo.jpg/200px-Bob_Casey_Jr._official_Senate_photo.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Madeleine Dean",
-    "party": "Democratic Party",
-    "state": "Pennsylvania",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Madeleine_Dean_Official_Portrait_116th_Congress.jpg/330px-Madeleine_Dean_Official_Portrait_116th_Congress.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Tim Scott",
-    "party": "Republican Party",
-    "state": "South Carolina",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Tim_Scott_official_portrait.jpg/330px-Tim_Scott_official_portrait.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Lindsey Graham",
-    "party": "Republican Party",
-    "state": "South Carolina",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Congressional_Delegation_led_by_Lindsey_Graham_visited_Kyiv%2C_Ukraine%2C_Mar_18%2C_2024_-_53642976390_%28cropped%29.jpg/330px-Congressional_Delegation_led_by_Lindsey_Graham_visited_Kyiv%2C_Ukraine%2C_Mar_18%2C_2024_-_53642976390_%28cropped%29.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Nancy Mace",
-    "party": "Republican Party",
-    "state": "South Carolina",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Nancy_Mace.jpg/330px-Nancy_Mace.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Mark Warner",
-    "party": "Democratic Party",
-    "state": "Virginia",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Mark_Warner_2025.jpg/330px-Mark_Warner_2025.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Tim Kaine",
-    "party": "Democratic Party",
-    "state": "Virginia",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Tim_Kaine%2C_official_portrait_%28119th_Congress%29.jpg/330px-Tim_Kaine%2C_official_portrait_%28119th_Congress%29.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Jennifer Wexton",
-    "party": "Democratic Party",
-    "state": "Virginia",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Jennifer_Wexton%2C_official_portrait%2C_116th_Congress.jpg/330px-Jennifer_Wexton%2C_official_portrait%2C_116th_Congress.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Ron Wyden",
-    "party": "Democratic Party",
-    "state": "Oregon",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Ron_Wyden_117th_Congress_%283x4_cropped%29.jpeg/330px-Ron_Wyden_117th_Congress_%283x4_cropped%29.jpeg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Jeff Merkley",
-    "party": "Democratic Party",
-    "state": "Oregon",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Jeff_Merkley%2C_115th_official_photo.jpg/330px-Jeff_Merkley%2C_115th_official_photo.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Earl Blumenauer",
-    "party": "Democratic Party",
-    "state": "Oregon",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Earl_Blumenauer%2C_official_portrait%2C_116th_Congress_2.jpg/330px-Earl_Blumenauer%2C_official_portrait%2C_116th_Congress_2.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Patty Murray",
-    "party": "Democratic Party",
-    "state": "Washington",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Patty_Murray%2C_official_portrait%2C_113th_Congress.jpg/330px-Patty_Murray%2C_official_portrait%2C_113th_Congress.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Maria Cantwell",
-    "party": "Democratic Party",
-    "state": "Washington",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Maria_Cantwell_%28cropped%29.jpg/330px-Maria_Cantwell_%28cropped%29.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Pramila Jayapal",
-    "party": "Democratic Party",
-    "state": "Washington",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Pramila_Jayapal%2C_official_portrait%2C_116th_Congress.jpg/330px-Pramila_Jayapal%2C_official_portrait%2C_116th_Congress.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Mitch McConnell",
-    "party": "Republican Party",
-    "state": "Kentucky",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Mitch_McConnell_2016_official_photo_%281%29.jpg/330px-Mitch_McConnell_2016_official_photo_%281%29.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Rand Paul",
-    "party": "Republican Party",
-    "state": "Kentucky",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Rand_Paul_Official_Portrait.jpg/330px-Rand_Paul_Official_Portrait.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Thomas Massie",
-    "party": "Republican Party",
-    "state": "Kentucky",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Thomas_Massie_official_portrait%2C_2022.jpg/330px-Thomas_Massie_official_portrait%2C_2022.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Tommy Tuberville",
-    "party": "Republican Party",
-    "state": "Alabama",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Tommy_tuberville.jpg/330px-Tommy_tuberville.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Katie Britt",
-    "party": "Republican Party",
-    "state": "Alabama",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Katie_Britt.jpg/330px-Katie_Britt.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Terri Sewell",
-    "party": "Democratic Party",
-    "state": "Alabama",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Terri_Sewell_official_photo.jpg/330px-Terri_Sewell_official_photo.jpg"
   },
   {
     "level": "federal",
@@ -473,6 +73,14 @@
   },
   {
     "level": "federal",
+    "office": "U.S. Representative",
+    "name": "French Hill",
+    "party": "Republican Party",
+    "state": "Arkansas",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/French_Hill%2C_official_portrait%2C_116th_Congress.jpg/200px-French_Hill%2C_official_portrait%2C_116th_Congress.jpg"
+  },
+  {
+    "level": "federal",
     "office": "U.S. Senator",
     "name": "John Boozman",
     "party": "Republican Party",
@@ -489,19 +97,35 @@
   },
   {
     "level": "federal",
-    "office": "U.S. Representative",
-    "name": "French Hill",
-    "party": "Republican Party",
-    "state": "Arkansas",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/French_Hill%2C_official_portrait%2C_116th_Congress.jpg/200px-French_Hill%2C_official_portrait%2C_116th_Congress.jpg"
+    "office": "U.S. Senator",
+    "name": "Alex Padilla",
+    "party": "Democratic Party",
+    "state": "California",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Alex_Padilla_117th_Congress_portrait.jpg/330px-Alex_Padilla_117th_Congress_portrait.jpg"
   },
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "Michael Bennet",
+    "name": "Dianne Feinstein",
     "party": "Democratic Party",
-    "state": "Colorado",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Senator_Mike_Bennett.jpg/330px-Senator_Mike_Bennett.jpg"
+    "state": "California",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Dianne_Feinstein%2C_official_Senate_photo.jpg/330px-Dianne_Feinstein%2C_official_Senate_photo.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Kevin McCarthy",
+    "party": "Republican Party",
+    "state": "California",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Kevin_McCarthy_117th_Congress.jpg/330px-Kevin_McCarthy_117th_Congress.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Nancy Pelosi",
+    "party": "Democratic Party",
+    "state": "California",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Nancy_Pelosi_2019.jpg/330px-Nancy_Pelosi_2019.jpg"
   },
   {
     "level": "federal",
@@ -522,18 +146,18 @@
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "Chris Murphy",
+    "name": "Michael Bennet",
     "party": "Democratic Party",
-    "state": "Connecticut",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Sen_Chris_Murphy_in_2023.jpg/330px-Sen_Chris_Murphy_in_2023.jpg"
+    "state": "Colorado",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Senator_Mike_Bennett.jpg/330px-Senator_Mike_Bennett.jpg"
   },
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "Richard Blumenthal",
+    "name": "Chris Murphy",
     "party": "Democratic Party",
     "state": "Connecticut",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Senator_Richard_Blumenthal_at_the_White_House%2C_2024_%28cropped%29.jpg/330px-Senator_Richard_Blumenthal_at_the_White_House%2C_2024_%28cropped%29.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Sen_Chris_Murphy_in_2023.jpg/330px-Sen_Chris_Murphy_in_2023.jpg"
   },
   {
     "level": "federal",
@@ -546,10 +170,10 @@
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "Tom Carper",
+    "name": "Richard Blumenthal",
     "party": "Democratic Party",
-    "state": "Delaware",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tom_Carper%2C_official_portrait%2C_112th_Congress.jpg/330px-Tom_Carper%2C_official_portrait%2C_112th_Congress.jpg"
+    "state": "Connecticut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Senator_Richard_Blumenthal_at_the_White_House%2C_2024_%28cropped%29.jpg/330px-Senator_Richard_Blumenthal_at_the_White_House%2C_2024_%28cropped%29.jpg"
   },
   {
     "level": "federal",
@@ -570,18 +194,66 @@
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "Brian Schatz",
+    "name": "Tom Carper",
     "party": "Democratic Party",
-    "state": "Hawaii",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Brian_Schatz_in_2025_%28cropped%29.jpg/330px-Brian_Schatz_in_2025_%28cropped%29.jpg"
+    "state": "Delaware",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tom_Carper%2C_official_portrait%2C_112th_Congress.jpg/330px-Tom_Carper%2C_official_portrait%2C_112th_Congress.jpg"
   },
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "Mazie Hirono",
+    "name": "Marco Rubio",
+    "party": "Republican Party",
+    "state": "Florida",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Official_portrait_of_Secretary_Marco_Rubio_%28cropped%29%282%29.jpg/330px-Official_portrait_of_Secretary_Marco_Rubio_%28cropped%29%282%29.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Matt Gaetz",
+    "party": "Republican Party",
+    "state": "Florida",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Matt_Gaetz_117th_Congress_portrait_%28crop%29.jpg/330px-Matt_Gaetz_117th_Congress_portrait_%28crop%29.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Rick Scott",
+    "party": "Republican Party",
+    "state": "Florida",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Official_Portrait_of_Senator_Rick_Scott_%28R-FL%29.jpg/330px-Official_Portrait_of_Senator_Rick_Scott_%28R-FL%29.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Jon Ossoff",
+    "party": "Democratic Party",
+    "state": "Georgia",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Jon_Ossoff_Senate_Portrait_2021.jpg/330px-Jon_Ossoff_Senate_Portrait_2021.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Marjorie Taylor Greene",
+    "party": "Republican Party",
+    "state": "Georgia",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Marjorie_Taylor_Greene_%28cropped%29.jpg/330px-Marjorie_Taylor_Greene_%28cropped%29.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Raphael Warnock",
+    "party": "Democratic Party",
+    "state": "Georgia",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Raphael_Warnock_official_photo.jpg/330px-Raphael_Warnock_official_photo.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Brian Schatz",
     "party": "Democratic Party",
     "state": "Hawaii",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Mazie_Hirono%2C_official_portrait%2C_113th_Congress.jpg/330px-Mazie_Hirono%2C_official_portrait%2C_113th_Congress.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Brian_Schatz_in_2025_%28cropped%29.jpg/330px-Brian_Schatz_in_2025_%28cropped%29.jpg"
   },
   {
     "level": "federal",
@@ -594,10 +266,10 @@
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "Mike Crapo",
-    "party": "Republican Party",
-    "state": "Idaho",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Mike_Crapo_2019_%28looser_crop%29.jpg/330px-Mike_Crapo_2019_%28looser_crop%29.jpg"
+    "name": "Mazie Hirono",
+    "party": "Democratic Party",
+    "state": "Hawaii",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Mazie_Hirono%2C_official_portrait%2C_113th_Congress.jpg/330px-Mazie_Hirono%2C_official_portrait%2C_113th_Congress.jpg"
   },
   {
     "level": "federal",
@@ -609,6 +281,14 @@
   },
   {
     "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Mike Crapo",
+    "party": "Republican Party",
+    "state": "Idaho",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Mike_Crapo_2019_%28looser_crop%29.jpg/330px-Mike_Crapo_2019_%28looser_crop%29.jpg"
+  },
+  {
+    "level": "federal",
     "office": "U.S. Representative",
     "name": "Russ Fulcher",
     "party": "Republican Party",
@@ -617,11 +297,35 @@
   },
   {
     "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Danny Davis",
+    "party": "Democratic Party",
+    "state": "Illinois",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Danny_Davis%2C_official_portrait%2C_116th_Congress.jpg/200px-Danny_Davis%2C_official_portrait%2C_116th_Congress.jpg"
+  },
+  {
+    "level": "federal",
     "office": "U.S. Senator",
-    "name": "Todd Young",
+    "name": "Dick Durbin",
+    "party": "Democratic Party",
+    "state": "Illinois",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Dick_Durbin_117th_Congress_portrait_%281%29_%28crop%29.jpeg/330px-Dick_Durbin_117th_Congress_portrait_%281%29_%28crop%29.jpeg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Tammy Duckworth",
+    "party": "Democratic Party",
+    "state": "Illinois",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Tammy_Duckworth%2C_official_portrait%2C_115th_Congress.jpg/330px-Tammy_Duckworth%2C_official_portrait%2C_115th_Congress.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Jim Banks",
     "party": "Republican Party",
     "state": "Indiana",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Sen._Todd_Young_official_photo_%28slight_crop_2%29.jpg/330px-Sen._Todd_Young_official_photo_%28slight_crop_2%29.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Senator_Banks_Official_Portrait.jpg/330px-Senator_Banks_Official_Portrait.jpg"
   },
   {
     "level": "federal",
@@ -633,11 +337,11 @@
   },
   {
     "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Jim Banks",
+    "office": "U.S. Senator",
+    "name": "Todd Young",
     "party": "Republican Party",
     "state": "Indiana",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Senator_Banks_Official_Portrait.jpg/330px-Senator_Banks_Official_Portrait.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Sen._Todd_Young_official_photo_%28slight_crop_2%29.jpg/330px-Sen._Todd_Young_official_photo_%28slight_crop_2%29.jpg"
   },
   {
     "level": "federal",
@@ -690,6 +394,30 @@
   {
     "level": "federal",
     "office": "U.S. Senator",
+    "name": "Mitch McConnell",
+    "party": "Republican Party",
+    "state": "Kentucky",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Mitch_McConnell_2016_official_photo_%281%29.jpg/330px-Mitch_McConnell_2016_official_photo_%281%29.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Rand Paul",
+    "party": "Republican Party",
+    "state": "Kentucky",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Rand_Paul_Official_Portrait.jpg/330px-Rand_Paul_Official_Portrait.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Thomas Massie",
+    "party": "Republican Party",
+    "state": "Kentucky",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Thomas_Massie_official_portrait%2C_2022.jpg/330px-Thomas_Massie_official_portrait%2C_2022.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
     "name": "Bill Cassidy",
     "party": "Republican Party",
     "state": "Louisiana",
@@ -721,19 +449,19 @@
   },
   {
     "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Susan Collins",
-    "party": "Republican Party",
-    "state": "Maine",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Senator_Susan_Collins_2014_official_portrait.jpg/330px-Senator_Susan_Collins_2014_official_portrait.jpg"
-  },
-  {
-    "level": "federal",
     "office": "U.S. Representative",
     "name": "Chellie Pingree",
     "party": "Democratic Party",
     "state": "Maine",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/CPingree_Portrait_202203.jpg/330px-CPingree_Portrait_202203.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Susan Collins",
+    "party": "Republican Party",
+    "state": "Maine",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Senator_Susan_Collins_2014_official_portrait.jpg/330px-Senator_Susan_Collins_2014_official_portrait.jpg"
   },
   {
     "level": "federal",
@@ -761,11 +489,27 @@
   },
   {
     "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Gary Peters",
+    "office": "U.S. Representative",
+    "name": "Ayanna Pressley",
     "party": "Democratic Party",
-    "state": "Michigan",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Gary_Peters_official_photo_115th_congress.jpg/330px-Gary_Peters_official_photo_115th_congress.jpg"
+    "state": "Massachusetts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Rep._Ayanna_Pressley%2C_117th_Congress.jpg/330px-Rep._Ayanna_Pressley%2C_117th_Congress.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Ed Markey",
+    "party": "Democratic Party",
+    "state": "Massachusetts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Edward_Markey%2C_official_portrait%2C_114th_Congress.jpg/330px-Edward_Markey%2C_official_portrait%2C_114th_Congress.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Elizabeth Warren",
+    "party": "Democratic Party",
+    "state": "Massachusetts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Elizabeth-warren-2022_%28cropped%29.jpg/330px-Elizabeth-warren-2022_%28cropped%29.jpg"
   },
   {
     "level": "federal",
@@ -774,6 +518,14 @@
     "party": "Democratic Party",
     "state": "Michigan",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Debbie_Stabenow%2C_official_photo%2C_116th_Congress.jpg/330px-Debbie_Stabenow%2C_official_photo%2C_116th_Congress.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Gary Peters",
+    "party": "Democratic Party",
+    "state": "Michigan",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Gary_Peters_official_photo_115th_congress.jpg/330px-Gary_Peters_official_photo_115th_congress.jpg"
   },
   {
     "level": "federal",
@@ -786,10 +538,26 @@
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "Roger Wicker",
-    "party": "Republican Party",
-    "state": "Mississippi",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/2025_Roger_Wicker_%28cropped%29.jpg/330px-2025_Roger_Wicker_%28cropped%29.jpg"
+    "name": "Amy Klobuchar",
+    "party": "Democratic Party",
+    "state": "Minnesota",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Amy_Klobuchar%2C_official_portrait%2C_113th_Congress.jpg/330px-Amy_Klobuchar%2C_official_portrait%2C_113th_Congress.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Ilhan Omar",
+    "party": "Democratic Party",
+    "state": "Minnesota",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Ilhan_Omar%2C_official_portrait%2C_116th_Congress_%28cropped%29_A.jpg/330px-Ilhan_Omar%2C_official_portrait%2C_116th_Congress_%28cropped%29_A.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Tina Smith",
+    "party": "Democratic Party",
+    "state": "Minnesota",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Tina_Smith%2C_official_portrait%2C_116th_congress.jpg/330px-Tina_Smith%2C_official_portrait%2C_116th_congress.jpg"
   },
   {
     "level": "federal",
@@ -801,27 +569,19 @@
   },
   {
     "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Roger Wicker",
+    "party": "Republican Party",
+    "state": "Mississippi",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/2025_Roger_Wicker_%28cropped%29.jpg/330px-2025_Roger_Wicker_%28cropped%29.jpg"
+  },
+  {
+    "level": "federal",
     "office": "U.S. Representative",
     "name": "Trent Kelly",
     "party": "Republican Party",
     "state": "Mississippi",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Trent_Kelly_official_congressional_photo.jpg/330px-Trent_Kelly_official_congressional_photo.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Josh Hawley",
-    "party": "Republican Party",
-    "state": "Missouri",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Josh_Hawley%2C_official_portrait%2C_116th_congress.jpg/330px-Josh_Hawley%2C_official_portrait%2C_116th_congress.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Eric Schmitt",
-    "party": "Republican Party",
-    "state": "Missouri",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Sen._Eric_Schmitt%2C_official_portrait%2C_118th_Congress.jpg/330px-Sen._Eric_Schmitt%2C_official_portrait%2C_118th_Congress.jpg"
   },
   {
     "level": "federal",
@@ -834,18 +594,26 @@
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "Jon Tester",
-    "party": "Democratic Party",
-    "state": "Montana",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/JonTester.jpg/330px-JonTester.jpg"
+    "name": "Eric Schmitt",
+    "party": "Republican Party",
+    "state": "Missouri",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Sen._Eric_Schmitt%2C_official_portrait%2C_118th_Congress.jpg/330px-Sen._Eric_Schmitt%2C_official_portrait%2C_118th_Congress.jpg"
   },
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "Steve Daines",
+    "name": "Josh Hawley",
     "party": "Republican Party",
+    "state": "Missouri",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Josh_Hawley%2C_official_portrait%2C_116th_congress.jpg/330px-Josh_Hawley%2C_official_portrait%2C_116th_congress.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Jon Tester",
+    "party": "Democratic Party",
     "state": "Montana",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Steve_Daines%2C_Official_Portrait%2C_116th_Congress.jpg/330px-Steve_Daines%2C_Official_Portrait%2C_116th_Congress.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/JonTester.jpg/330px-JonTester.jpg"
   },
   {
     "level": "federal",
@@ -858,18 +626,18 @@
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "Deb Fischer",
+    "name": "Steve Daines",
     "party": "Republican Party",
-    "state": "Nebraska",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Deb_Fischer_118th_Congress.jpg/330px-Deb_Fischer_118th_Congress.jpg"
+    "state": "Montana",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Steve_Daines%2C_Official_Portrait%2C_116th_Congress.jpg/330px-Steve_Daines%2C_Official_Portrait%2C_116th_Congress.jpg"
   },
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "Pete Ricketts",
+    "name": "Deb Fischer",
     "party": "Republican Party",
     "state": "Nebraska",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Sen._Pete_Ricketts_official_portrait%2C_118th_Congress.jpg/330px-Sen._Pete_Ricketts_official_portrait%2C_118th_Congress.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Deb_Fischer_118th_Congress.jpg/330px-Deb_Fischer_118th_Congress.jpg"
   },
   {
     "level": "federal",
@@ -882,10 +650,26 @@
   {
     "level": "federal",
     "office": "U.S. Senator",
+    "name": "Pete Ricketts",
+    "party": "Republican Party",
+    "state": "Nebraska",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Sen._Pete_Ricketts_official_portrait%2C_118th_Congress.jpg/330px-Sen._Pete_Ricketts_official_portrait%2C_118th_Congress.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
     "name": "Catherine Cortez Masto",
     "party": "Democratic Party",
     "state": "Nevada",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Catherine_Cortez_Masto_portrait_red.jpg/330px-Catherine_Cortez_Masto_portrait_red.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Dina Titus",
+    "party": "Democratic Party",
+    "state": "Nevada",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Dina_Titus_official_photo.jpg/330px-Dina_Titus_official_photo.jpg"
   },
   {
     "level": "federal",
@@ -898,10 +682,10 @@
   {
     "level": "federal",
     "office": "U.S. Representative",
-    "name": "Dina Titus",
+    "name": "Chris Pappas",
     "party": "Democratic Party",
-    "state": "Nevada",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Dina_Titus_official_photo.jpg/330px-Dina_Titus_official_photo.jpg"
+    "state": "New Hampshire",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Chris_Pappas%2C_official_portrait%2C_116th_Congress.jpg/200px-Chris_Pappas%2C_official_portrait%2C_116th_Congress.jpg"
   },
   {
     "level": "federal",
@@ -921,11 +705,35 @@
   },
   {
     "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Chris Pappas",
+    "office": "U.S. Senator",
+    "name": "Bob Menendez",
     "party": "Democratic Party",
-    "state": "New Hampshire",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Chris_Pappas%2C_official_portrait%2C_116th_Congress.jpg/200px-Chris_Pappas%2C_official_portrait%2C_116th_Congress.jpg"
+    "state": "New Jersey",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Senator_Bob_Menendez_%282022%29.jpg/330px-Senator_Bob_Menendez_%282022%29.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Cory Booker",
+    "party": "Democratic Party",
+    "state": "New Jersey",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Cory_Booker%2C_official_portrait_%28119th_Congress%29.jpg/330px-Cory_Booker%2C_official_portrait_%28119th_Congress%29.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Josh Gottheimer",
+    "party": "Democratic Party",
+    "state": "New Jersey",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Josh_Gottheimer%2C_official_portrait%2C_115th_Congress_%28cropped%29.jpg/330px-Josh_Gottheimer%2C_official_portrait%2C_115th_Congress_%28cropped%29.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Ben Ray Luján",
+    "party": "Democratic Party",
+    "state": "New Mexico",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Ben_Ray_Luj%C3%A1n%2C_official_portrait_%28119th_Congress%29.jpg/330px-Ben_Ray_Luj%C3%A1n%2C_official_portrait_%28119th_Congress%29.jpg"
   },
   {
     "level": "federal",
@@ -934,14 +742,6 @@
     "party": "Democratic Party",
     "state": "New Mexico",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Heinrich_Official_Headshot_2019.jpg/330px-Heinrich_Official_Headshot_2019.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "Ben Ray Luj\u00e1n",
-    "party": "Democratic Party",
-    "state": "New Mexico",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Ben_Ray_Luj%C3%A1n%2C_official_portrait_%28119th_Congress%29.jpg/330px-Ben_Ray_Luj%C3%A1n%2C_official_portrait_%28119th_Congress%29.jpg"
   },
   {
     "level": "federal",
@@ -954,18 +754,26 @@
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "Thom Tillis",
-    "party": "Republican Party",
-    "state": "North Carolina",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Sen._Thom_Tillis_official_photo.jpg/330px-Sen._Thom_Tillis_official_photo.jpg"
+    "name": "Chuck Schumer",
+    "party": "Democratic Party",
+    "state": "New York",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Chuck_Schumer_official_photo.jpg/330px-Chuck_Schumer_official_photo.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Hakeem Jeffries",
+    "party": "Democratic Party",
+    "state": "New York",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Hakeem_Jeffries_117th_Congress.jpg/330px-Hakeem_Jeffries_117th_Congress.jpg"
   },
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "Ted Budd",
-    "party": "Republican Party",
-    "state": "North Carolina",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Senator_Ted_Budd_official_portrait_%28cropped%29.jpg/330px-Senator_Ted_Budd_official_portrait_%28cropped%29.jpg"
+    "name": "Kirsten Gillibrand",
+    "party": "Democratic Party",
+    "state": "New York",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Kirsten_Gillibrand_official_photo.jpg/330px-Kirsten_Gillibrand_official_photo.jpg"
   },
   {
     "level": "federal",
@@ -978,18 +786,26 @@
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "John Hoeven",
+    "name": "Ted Budd",
     "party": "Republican Party",
-    "state": "North Dakota",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Hoeven_Official_Portrait_2014.JPG/330px-Hoeven_Official_Portrait_2014.JPG"
+    "state": "North Carolina",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Senator_Ted_Budd_official_portrait_%28cropped%29.jpg/330px-Senator_Ted_Budd_official_portrait_%28cropped%29.jpg"
   },
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "Kevin Cramer",
+    "name": "Thom Tillis",
+    "party": "Republican Party",
+    "state": "North Carolina",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Sen._Thom_Tillis_official_photo.jpg/330px-Sen._Thom_Tillis_official_photo.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "John Hoeven",
     "party": "Republican Party",
     "state": "North Dakota",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Kevin_Cramer%2C_official_portrait%2C_116th_congress_2.jpg/330px-Kevin_Cramer%2C_official_portrait%2C_116th_congress_2.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Hoeven_Official_Portrait_2014.JPG/330px-Hoeven_Official_Portrait_2014.JPG"
   },
   {
     "level": "federal",
@@ -1002,18 +818,106 @@
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "Mike Rounds",
+    "name": "Kevin Cramer",
     "party": "Republican Party",
-    "state": "South Dakota",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Mike_Rounds_official_Senate_portrait.jpg/330px-Mike_Rounds_official_Senate_portrait.jpg"
+    "state": "North Dakota",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Kevin_Cramer%2C_official_portrait%2C_116th_congress_2.jpg/330px-Kevin_Cramer%2C_official_portrait%2C_116th_congress_2.jpg"
   },
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "John Thune",
+    "name": "JD Vance",
     "party": "Republican Party",
-    "state": "South Dakota",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/John_Thune_117th_Congress_portrait.jpg/330px-John_Thune_117th_Congress_portrait.jpg"
+    "state": "Ohio",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/JD_Vance_official_portrait.jpg/330px-JD_Vance_official_portrait.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Jim Jordan",
+    "party": "Republican Party",
+    "state": "Ohio",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Jim_Jordan_official_photo%2C_114th_Congress.jpg/330px-Jim_Jordan_official_photo%2C_114th_Congress.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Sherrod Brown",
+    "party": "Democratic Party",
+    "state": "Ohio",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Sherrod_Brown_117th_Congress_%282%29.jpg/330px-Sherrod_Brown_117th_Congress_%282%29.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Earl Blumenauer",
+    "party": "Democratic Party",
+    "state": "Oregon",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Earl_Blumenauer%2C_official_portrait%2C_116th_Congress_2.jpg/330px-Earl_Blumenauer%2C_official_portrait%2C_116th_Congress_2.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Jeff Merkley",
+    "party": "Democratic Party",
+    "state": "Oregon",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Jeff_Merkley%2C_115th_official_photo.jpg/330px-Jeff_Merkley%2C_115th_official_photo.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Ron Wyden",
+    "party": "Democratic Party",
+    "state": "Oregon",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Ron_Wyden_117th_Congress_%283x4_cropped%29.jpeg/330px-Ron_Wyden_117th_Congress_%283x4_cropped%29.jpeg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Bob Casey",
+    "party": "Democratic Party",
+    "state": "Pennsylvania",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Bob_Casey_Jr._official_Senate_photo.jpg/200px-Bob_Casey_Jr._official_Senate_photo.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "John Fetterman",
+    "party": "Democratic Party",
+    "state": "Pennsylvania",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/John_Fetterman_official_portrait.jpg/330px-John_Fetterman_official_portrait.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Madeleine Dean",
+    "party": "Democratic Party",
+    "state": "Pennsylvania",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Madeleine_Dean_Official_Portrait_116th_Congress.jpg/330px-Madeleine_Dean_Official_Portrait_116th_Congress.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Lindsey Graham",
+    "party": "Republican Party",
+    "state": "South Carolina",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Congressional_Delegation_led_by_Lindsey_Graham_visited_Kyiv%2C_Ukraine%2C_Mar_18%2C_2024_-_53642976390_%28cropped%29.jpg/330px-Congressional_Delegation_led_by_Lindsey_Graham_visited_Kyiv%2C_Ukraine%2C_Mar_18%2C_2024_-_53642976390_%28cropped%29.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Nancy Mace",
+    "party": "Republican Party",
+    "state": "South Carolina",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Nancy_Mace.jpg/330px-Nancy_Mace.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Tim Scott",
+    "party": "Republican Party",
+    "state": "South Carolina",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Tim_Scott_official_portrait.jpg/330px-Tim_Scott_official_portrait.jpg"
   },
   {
     "level": "federal",
@@ -1026,10 +930,18 @@
   {
     "level": "federal",
     "office": "U.S. Senator",
-    "name": "Marsha Blackburn",
+    "name": "John Thune",
     "party": "Republican Party",
-    "state": "Tennessee",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Sen._Marsha_Blackburn_%28R-TN%29_official_headshot_-_116th_Congress.jpg/330px-Sen._Marsha_Blackburn_%28R-TN%29_official_headshot_-_116th_Congress.jpg"
+    "state": "South Dakota",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/John_Thune_117th_Congress_portrait.jpg/330px-John_Thune_117th_Congress_portrait.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Mike Rounds",
+    "party": "Republican Party",
+    "state": "South Dakota",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Mike_Rounds_official_Senate_portrait.jpg/330px-Mike_Rounds_official_Senate_portrait.jpg"
   },
   {
     "level": "federal",
@@ -1041,11 +953,59 @@
   },
   {
     "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Marsha Blackburn",
+    "party": "Republican Party",
+    "state": "Tennessee",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Sen._Marsha_Blackburn_%28R-TN%29_official_headshot_-_116th_Congress.jpg/330px-Sen._Marsha_Blackburn_%28R-TN%29_official_headshot_-_116th_Congress.jpg"
+  },
+  {
+    "level": "federal",
     "office": "U.S. Representative",
     "name": "Tim Burchett",
     "party": "Republican Party",
     "state": "Tennessee",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Rep_Tim_Burchett%2C_119th_Congress.jpg/330px-Rep_Tim_Burchett%2C_119th_Congress.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Dan Crenshaw",
+    "party": "Republican Party",
+    "state": "Texas",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dan_Crenshaw_116th_Congress.jpg/330px-Dan_Crenshaw_116th_Congress.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "John Cornyn",
+    "party": "Republican Party",
+    "state": "Texas",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/John_Cornyn_official_photo.jpg/330px-John_Cornyn_official_photo.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Lizzie Fletcher",
+    "party": "Democratic Party",
+    "state": "Texas",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Lizzie_Fletcher_116th_Congress.jpg/330px-Lizzie_Fletcher_116th_Congress.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Ted Cruz",
+    "party": "Republican Party",
+    "state": "Texas",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Ted_Cruz_official_photo.jpg/330px-Ted_Cruz_official_photo.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Blake Moore",
+    "party": "Republican Party",
+    "state": "Utah",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Rep._Blake_Moore_official_photo%2C_2022.jpg/330px-Rep._Blake_Moore_official_photo%2C_2022.jpg"
   },
   {
     "level": "federal",
@@ -1066,10 +1026,10 @@
   {
     "level": "federal",
     "office": "U.S. Representative",
-    "name": "Blake Moore",
-    "party": "Republican Party",
-    "state": "Utah",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Rep._Blake_Moore_official_photo%2C_2022.jpg/330px-Rep._Blake_Moore_official_photo%2C_2022.jpg"
+    "name": "Becca Balint",
+    "party": "Democratic Party",
+    "state": "Vermont",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Rep._Becca_Balint_-_118th_Congress.jpg/330px-Rep._Becca_Balint_-_118th_Congress.jpg"
   },
   {
     "level": "federal",
@@ -1090,10 +1050,58 @@
   {
     "level": "federal",
     "office": "U.S. Representative",
-    "name": "Becca Balint",
+    "name": "Jennifer Wexton",
     "party": "Democratic Party",
-    "state": "Vermont",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Rep._Becca_Balint_-_118th_Congress.jpg/330px-Rep._Becca_Balint_-_118th_Congress.jpg"
+    "state": "Virginia",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Jennifer_Wexton%2C_official_portrait%2C_116th_Congress.jpg/330px-Jennifer_Wexton%2C_official_portrait%2C_116th_Congress.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Mark Warner",
+    "party": "Democratic Party",
+    "state": "Virginia",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Mark_Warner_2025.jpg/330px-Mark_Warner_2025.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Tim Kaine",
+    "party": "Democratic Party",
+    "state": "Virginia",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Tim_Kaine%2C_official_portrait_%28119th_Congress%29.jpg/330px-Tim_Kaine%2C_official_portrait_%28119th_Congress%29.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Maria Cantwell",
+    "party": "Democratic Party",
+    "state": "Washington",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Maria_Cantwell_%28cropped%29.jpg/330px-Maria_Cantwell_%28cropped%29.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "Patty Murray",
+    "party": "Democratic Party",
+    "state": "Washington",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Patty_Murray%2C_official_portrait%2C_113th_Congress.jpg/330px-Patty_Murray%2C_official_portrait%2C_113th_Congress.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Pramila Jayapal",
+    "party": "Democratic Party",
+    "state": "Washington",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Pramila_Jayapal%2C_official_portrait%2C_116th_Congress.jpg/330px-Pramila_Jayapal%2C_official_portrait%2C_116th_Congress.jpg"
+  },
+  {
+    "level": "federal",
+    "office": "U.S. Representative",
+    "name": "Gwen Moore",
+    "party": "Democratic Party",
+    "state": "Wisconsin",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Gwen_Moore%2C_official_portrait%2C_116th_Congress.jpg/330px-Gwen_Moore%2C_official_portrait%2C_116th_Congress.jpg"
   },
   {
     "level": "federal",
@@ -1113,22 +1121,6 @@
   },
   {
     "level": "federal",
-    "office": "U.S. Representative",
-    "name": "Gwen Moore",
-    "party": "Democratic Party",
-    "state": "Wisconsin",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Gwen_Moore%2C_official_portrait%2C_116th_Congress.jpg/330px-Gwen_Moore%2C_official_portrait%2C_116th_Congress.jpg"
-  },
-  {
-    "level": "federal",
-    "office": "U.S. Senator",
-    "name": "John Barrasso",
-    "party": "Republican Party",
-    "state": "Wyoming",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/John_Barrasso_official_portrait_112th_Congress.jpg/330px-John_Barrasso_official_portrait_112th_Congress.jpg"
-  },
-  {
-    "level": "federal",
     "office": "U.S. Senator",
     "name": "Cynthia Lummis",
     "party": "Republican Party",
@@ -1144,388 +1136,12 @@
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Official-harriet-hageman-wy00.jpg/330px-Official-harriet-hageman-wy00.jpg"
   },
   {
-    "level": "state",
-    "office": "Governor",
-    "name": "Gavin Newsom",
-    "party": "Democratic Party",
-    "state": "California",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Gavin_Newsom_2021.jpg/200px-Gavin_Newsom_2021.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Lieutenant Governor",
-    "name": "Eleni Kounalakis",
-    "party": "Democratic Party",
-    "state": "California",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/LG_Kounalakis_Signing_%28cropped%29.jpg/330px-LG_Kounalakis_Signing_%28cropped%29.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Attorney General",
-    "name": "Rob Bonta",
-    "party": "Democratic Party",
-    "state": "California",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Rob_Bonta_official_portrait_%28cropped%29.jpg/330px-Rob_Bonta_official_portrait_%28cropped%29.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Governor",
-    "name": "Kathy Hochul",
-    "party": "Democratic Party",
-    "state": "New York",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Kathy_Hochul_2021.jpg/200px-Kathy_Hochul_2021.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Lieutenant Governor",
-    "name": "Antonio Delgado",
-    "party": "Democratic Party",
-    "state": "New York",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/LG_Antonio_Delgado_Portrait.jpg/330px-LG_Antonio_Delgado_Portrait.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Attorney General",
-    "name": "Letitia James",
-    "party": "Democratic Party",
-    "state": "New York",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Letitia_James_Interview_Feb_2020.png/330px-Letitia_James_Interview_Feb_2020.png"
-  },
-  {
-    "level": "state",
-    "office": "Governor",
-    "name": "Greg Abbott",
+    "level": "federal",
+    "office": "U.S. Senator",
+    "name": "John Barrasso",
     "party": "Republican Party",
-    "state": "Texas",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Greg_Abbott_official_photo.jpg/200px-Greg_Abbott_official_photo.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Lieutenant Governor",
-    "name": "Dan Patrick",
-    "party": "Republican Party",
-    "state": "Texas",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Dan_Patrick_Texas_Lt_Governor.jpg/200px-Dan_Patrick_Texas_Lt_Governor.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Attorney General",
-    "name": "Ken Paxton",
-    "party": "Republican Party",
-    "state": "Texas",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Ken_Paxton_%2854816860552%29_%28cropped%29.jpg/330px-Ken_Paxton_%2854816860552%29_%28cropped%29.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Governor",
-    "name": "Ron DeSantis",
-    "party": "Republican Party",
-    "state": "Florida",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Ron_DeSantis_official_photo.jpg/330px-Ron_DeSantis_official_photo.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Lieutenant Governor",
-    "name": "Jeanette Nu\u00f1ez",
-    "party": "Republican Party",
-    "state": "Florida",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Jeanette_Nunez_official_photo_%28cropped_1%29.jpg/330px-Jeanette_Nunez_official_photo_%28cropped_1%29.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Attorney General",
-    "name": "Ashley Moody",
-    "party": "Republican Party",
-    "state": "Florida",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Senator_Ashley_Moody_Official_Portrait.jpg/330px-Senator_Ashley_Moody_Official_Portrait.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Governor",
-    "name": "J.B. Pritzker",
-    "party": "Democratic Party",
-    "state": "Illinois",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/J.B._Pritzker_April_2023_%283x4%29.jpg/330px-J.B._Pritzker_April_2023_%283x4%29.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Lieutenant Governor",
-    "name": "Juliana Stratton",
-    "party": "Democratic Party",
-    "state": "Illinois",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Juliana_Stratton_2023_%28cropped%29.jpg/330px-Juliana_Stratton_2023_%28cropped%29.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Attorney General",
-    "name": "Kwame Raoul",
-    "party": "Democratic Party",
-    "state": "Illinois",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Kwame_Raoul_RFCG.jpg/330px-Kwame_Raoul_RFCG.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Governor",
-    "name": "Maura Healey",
-    "party": "Democratic Party",
-    "state": "Massachusetts",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Maura_Healey%2C_official_portrait%2C_governor.jpg/330px-Maura_Healey%2C_official_portrait%2C_governor.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Lieutenant Governor",
-    "name": "Kim Driscoll",
-    "party": "Democratic Party",
-    "state": "Massachusetts",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Kim_Driscoll%2C_official_portrait%2C_lieutenant_governor.jpg/330px-Kim_Driscoll%2C_official_portrait%2C_lieutenant_governor.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Attorney General",
-    "name": "Andrea Campbell",
-    "party": "Democratic Party",
-    "state": "Massachusetts",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Andrea_Campbell_official_attorney_general_headshot%2C_2023_%283x4%29.jpg/330px-Andrea_Campbell_official_attorney_general_headshot%2C_2023_%283x4%29.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Governor",
-    "name": "Brian Kemp",
-    "party": "Republican Party",
-    "state": "Georgia",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Brian_Kemp_2023.jpg/330px-Brian_Kemp_2023.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Lieutenant Governor",
-    "name": "Burt Jones",
-    "party": "Republican Party",
-    "state": "Georgia",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Georgia_Lt._Gov._Burt_Jones_2023_%28cropped%29.jpg/330px-Georgia_Lt._Gov._Burt_Jones_2023_%28cropped%29.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Attorney General",
-    "name": "Chris Carr",
-    "party": "Republican Party",
-    "state": "Georgia",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Chris_Carr_Georgia_Attorney_General.jpg/200px-Chris_Carr_Georgia_Attorney_General.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Governor",
-    "name": "Mike DeWine",
-    "party": "Republican Party",
-    "state": "Ohio",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Gov-Mike-DeWine.jpg/330px-Gov-Mike-DeWine.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Lieutenant Governor",
-    "name": "Jon Husted",
-    "party": "Republican Party",
-    "state": "Ohio",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Sen._Jon_Husted_official_portrait%2C_119th_Congress.jpg/330px-Sen._Jon_Husted_official_portrait%2C_119th_Congress.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Attorney General",
-    "name": "Dave Yost",
-    "party": "Republican Party",
-    "state": "Ohio",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Dave_Yost_at_Federalist_Society_2.jpg/330px-Dave_Yost_at_Federalist_Society_2.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Governor",
-    "name": "Tim Walz",
-    "party": "Democratic Party",
-    "state": "Minnesota",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/TimWalz2025.jpg/330px-TimWalz2025.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Lieutenant Governor",
-    "name": "Peggy Flanagan",
-    "party": "Democratic Party",
-    "state": "Minnesota",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Peggy_Flanagan_and_Premier_Kinew_%28cropped%29.jpg/330px-Peggy_Flanagan_and_Premier_Kinew_%28cropped%29.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Attorney General",
-    "name": "Keith Ellison",
-    "party": "Democratic Party",
-    "state": "Minnesota",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Keith_Ellison_portrait.jpg/330px-Keith_Ellison_portrait.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Governor",
-    "name": "Phil Murphy",
-    "party": "Democratic Party",
-    "state": "New Jersey",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Gov._Phil_Murphy.jpg/330px-Gov._Phil_Murphy.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Lieutenant Governor",
-    "name": "Sheila Oliver",
-    "party": "Democratic Party",
-    "state": "New Jersey",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Lt._Governor_Oliver_Portrait.jpg/330px-Lt._Governor_Oliver_Portrait.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Attorney General",
-    "name": "Matt Platkin",
-    "party": "Democratic Party",
-    "state": "New Jersey",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Matt_Platkin_New_Jersey_Attorney_General.jpg/200px-Matt_Platkin_New_Jersey_Attorney_General.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Governor",
-    "name": "Josh Shapiro",
-    "party": "Democratic Party",
-    "state": "Pennsylvania",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Governor_Shapiro.jpg/330px-Governor_Shapiro.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Lieutenant Governor",
-    "name": "Austin Davis",
-    "party": "Democratic Party",
-    "state": "Pennsylvania",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Austin_Davis_Pennsylvania_Lt_Governor.jpg/200px-Austin_Davis_Pennsylvania_Lt_Governor.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Attorney General",
-    "name": "Michelle Henry",
-    "party": "Democratic Party",
-    "state": "Pennsylvania",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Michelle_Henry_Pennsylvania_Attorney_General.jpg/200px-Michelle_Henry_Pennsylvania_Attorney_General.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Governor",
-    "name": "Henry McMaster",
-    "party": "Republican Party",
-    "state": "South Carolina",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/McMaster_In_2024.jpg/330px-McMaster_In_2024.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Lieutenant Governor",
-    "name": "Pamela Evette",
-    "party": "Republican Party",
-    "state": "South Carolina",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Pamela_Evette_2019.jpg/330px-Pamela_Evette_2019.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Attorney General",
-    "name": "Alan Wilson",
-    "party": "Republican Party",
-    "state": "South Carolina",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Alan_Wilson_South_Carolina_Attorney_General.jpg/200px-Alan_Wilson_South_Carolina_Attorney_General.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Governor",
-    "name": "Glenn Youngkin",
-    "party": "Republican Party",
-    "state": "Virginia",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Youngkin_Governor_Portrait.jpg/330px-Youngkin_Governor_Portrait.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Lieutenant Governor",
-    "name": "Winsome Sears",
-    "party": "Republican Party",
-    "state": "Virginia",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Winsome_Sears_portrait%2C_2022.jpg/330px-Winsome_Sears_portrait%2C_2022.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Attorney General",
-    "name": "Jason Miyares",
-    "party": "Republican Party",
-    "state": "Virginia",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Attorney_General_Jason_Miyares_%28cropped%29.jpg/330px-Attorney_General_Jason_Miyares_%28cropped%29.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Governor",
-    "name": "Tina Kotek",
-    "party": "Democratic Party",
-    "state": "Oregon",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Tina_Kotek_official_portrait_2021%283x4_cropped%29.jpg/330px-Tina_Kotek_official_portrait_2021%283x4_cropped%29.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Secretary of State",
-    "name": "LaVonne Griffin-Valade",
-    "party": "Democratic Party",
-    "state": "Oregon",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/LaVonne_Griffin_Valade.jpg/300px-LaVonne_Griffin_Valade.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Attorney General",
-    "name": "Ellen Rosenblum",
-    "party": "Democratic Party",
-    "state": "Oregon",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Oregon_Attorney_General_Ellen_Rosenblum_addresses_attendees_at_the_conference_%2815478927731%29_%28cropped%29.jpg/330px-Oregon_Attorney_General_Ellen_Rosenblum_addresses_attendees_at_the_conference_%2815478927731%29_%28cropped%29.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Governor",
-    "name": "Jay Inslee",
-    "party": "Democratic Party",
-    "state": "Washington",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/U.S._Department_of_the_Interior%2C_Columbia_River_Salmon_Agreement_Ceremonial_Event%2C_Washington_DC_on_23_February_2024_-_62_%28cropped%29.jpg/330px-U.S._Department_of_the_Interior%2C_Columbia_River_Salmon_Agreement_Ceremonial_Event%2C_Washington_DC_on_23_February_2024_-_62_%28cropped%29.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Lieutenant Governor",
-    "name": "Denny Heck",
-    "party": "Democratic Party",
-    "state": "Washington",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Denny_Heck_official_photo.jpg/330px-Denny_Heck_official_photo.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Attorney General",
-    "name": "Bob Ferguson",
-    "party": "Democratic Party",
-    "state": "Washington",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Bob_Ferguson_Washington_Attorney_General.jpg/200px-Bob_Ferguson_Washington_Attorney_General.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Governor",
-    "name": "Andy Beshear",
-    "party": "Democratic Party",
-    "state": "Kentucky",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Andy_Beshear_2024_%28cropped%29.jpg/330px-Andy_Beshear_2024_%28cropped%29.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Lieutenant Governor",
-    "name": "Jacqueline Coleman",
-    "party": "Democratic Party",
-    "state": "Kentucky",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Jacqueline_Coleman_speaks_to_an_audience_from_the_Capitol_steps_in_Frankfort_%28cropped%29.jpg/330px-Jacqueline_Coleman_speaks_to_an_audience_from_the_Capitol_steps_in_Frankfort_%28cropped%29.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Attorney General",
-    "name": "Russell Coleman",
-    "party": "Republican Party",
-    "state": "Kentucky",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Russell_Coleman_official_photo.jpg/330px-Russell_Coleman_official_photo.jpg"
+    "state": "Wyoming",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/John_Barrasso_official_portrait_112th_Congress.jpg/330px-John_Barrasso_official_portrait_112th_Congress.jpg"
   },
   {
     "level": "state",
@@ -1537,14 +1153,6 @@
   },
   {
     "level": "state",
-    "office": "Lieutenant Governor",
-    "name": "Will Ainsworth",
-    "party": "Republican Party",
-    "state": "Alabama",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Alabama_Lieutenant_Governor_visits_Lyster_Army_Health_Clinic_%28cropped%29.jpg/330px-Alabama_Lieutenant_Governor_visits_Lyster_Army_Health_Clinic_%28cropped%29.jpg"
-  },
-  {
-    "level": "state",
     "office": "Attorney General",
     "name": "Steve Marshall",
     "party": "Republican Party",
@@ -1553,11 +1161,11 @@
   },
   {
     "level": "state",
-    "office": "Governor",
-    "name": "Katie Hobbs",
-    "party": "Democratic Party",
-    "state": "Arizona",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Katie_Hobbs_in_2025.jpg/330px-Katie_Hobbs_in_2025.jpg"
+    "office": "Lieutenant Governor",
+    "name": "Will Ainsworth",
+    "party": "Republican Party",
+    "state": "Alabama",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Alabama_Lieutenant_Governor_visits_Lyster_Army_Health_Clinic_%28cropped%29.jpg/330px-Alabama_Lieutenant_Governor_visits_Lyster_Army_Health_Clinic_%28cropped%29.jpg"
   },
   {
     "level": "state",
@@ -1569,19 +1177,19 @@
   },
   {
     "level": "state",
+    "office": "Governor",
+    "name": "Katie Hobbs",
+    "party": "Democratic Party",
+    "state": "Arizona",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Katie_Hobbs_in_2025.jpg/330px-Katie_Hobbs_in_2025.jpg"
+  },
+  {
+    "level": "state",
     "office": "Attorney General",
     "name": "Kris Mayes",
     "party": "Democratic Party",
     "state": "Arizona",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Kris_Mayes_%2852365525231%29_%28cropped%29.jpg/330px-Kris_Mayes_%2852365525231%29_%28cropped%29.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Governor",
-    "name": "Sarah Huckabee Sanders",
-    "party": "Republican Party",
-    "state": "Arkansas",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Governor_Sarah_Huckabee_Sanders_%28cropped%29.jpg/330px-Governor_Sarah_Huckabee_Sanders_%28cropped%29.jpg"
   },
   {
     "level": "state",
@@ -1593,6 +1201,14 @@
   },
   {
     "level": "state",
+    "office": "Governor",
+    "name": "Sarah Huckabee Sanders",
+    "party": "Republican Party",
+    "state": "Arkansas",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Governor_Sarah_Huckabee_Sanders_%28cropped%29.jpg/330px-Governor_Sarah_Huckabee_Sanders_%28cropped%29.jpg"
+  },
+  {
+    "level": "state",
     "office": "Attorney General",
     "name": "Tim Griffin",
     "party": "Republican Party",
@@ -1601,11 +1217,27 @@
   },
   {
     "level": "state",
-    "office": "Governor",
-    "name": "Jared Polis",
+    "office": "Lieutenant Governor",
+    "name": "Eleni Kounalakis",
     "party": "Democratic Party",
-    "state": "Colorado",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Governor_Jared_Polis_2023.jpg/330px-Governor_Jared_Polis_2023.jpg"
+    "state": "California",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/LG_Kounalakis_Signing_%28cropped%29.jpg/330px-LG_Kounalakis_Signing_%28cropped%29.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Gavin Newsom",
+    "party": "Democratic Party",
+    "state": "California",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Gavin_Newsom_2021.jpg/200px-Gavin_Newsom_2021.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Rob Bonta",
+    "party": "Democratic Party",
+    "state": "California",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Rob_Bonta_official_portrait_%28cropped%29.jpg/330px-Rob_Bonta_official_portrait_%28cropped%29.jpg"
   },
   {
     "level": "state",
@@ -1614,6 +1246,14 @@
     "party": "Democratic Party",
     "state": "Colorado",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Dianne_Primavera_2022.jpg/330px-Dianne_Primavera_2022.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Jared Polis",
+    "party": "Democratic Party",
+    "state": "Colorado",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Governor_Jared_Polis_2023.jpg/330px-Governor_Jared_Polis_2023.jpg"
   },
   {
     "level": "state",
@@ -1649,14 +1289,6 @@
   },
   {
     "level": "state",
-    "office": "Governor",
-    "name": "John Carney",
-    "party": "Democratic Party",
-    "state": "Delaware",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/John_Carney_Delaware_Governor.jpg/200px-John_Carney_Delaware_Governor.jpg"
-  },
-  {
-    "level": "state",
     "office": "Lieutenant Governor",
     "name": "Bethany Hall-Long",
     "party": "Democratic Party",
@@ -1665,11 +1297,75 @@
   },
   {
     "level": "state",
+    "office": "Governor",
+    "name": "John Carney",
+    "party": "Democratic Party",
+    "state": "Delaware",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/John_Carney_Delaware_Governor.jpg/200px-John_Carney_Delaware_Governor.jpg"
+  },
+  {
+    "level": "state",
     "office": "Attorney General",
     "name": "Kathy Jennings",
     "party": "Democratic Party",
     "state": "Delaware",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Kathy_Jennings_CFPB.png/330px-Kathy_Jennings_CFPB.png"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Ashley Moody",
+    "party": "Republican Party",
+    "state": "Florida",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Senator_Ashley_Moody_Official_Portrait.jpg/330px-Senator_Ashley_Moody_Official_Portrait.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Jeanette Nuñez",
+    "party": "Republican Party",
+    "state": "Florida",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Jeanette_Nunez_official_photo_%28cropped_1%29.jpg/330px-Jeanette_Nunez_official_photo_%28cropped_1%29.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Ron DeSantis",
+    "party": "Republican Party",
+    "state": "Florida",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Ron_DeSantis_official_photo.jpg/330px-Ron_DeSantis_official_photo.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Brian Kemp",
+    "party": "Republican Party",
+    "state": "Georgia",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Brian_Kemp_2023.jpg/330px-Brian_Kemp_2023.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Burt Jones",
+    "party": "Republican Party",
+    "state": "Georgia",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Georgia_Lt._Gov._Burt_Jones_2023_%28cropped%29.jpg/330px-Georgia_Lt._Gov._Burt_Jones_2023_%28cropped%29.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Chris Carr",
+    "party": "Republican Party",
+    "state": "Georgia",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Chris_Carr_Georgia_Attorney_General.jpg/200px-Chris_Carr_Georgia_Attorney_General.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Anne Lopez",
+    "party": "Democratic Party",
+    "state": "Hawaii",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Idiots_Mais_Rus%C3%A9s_%28stage_set%29.jpg/330px-Idiots_Mais_Rus%C3%A9s_%28stage_set%29.jpg"
   },
   {
     "level": "state",
@@ -1689,19 +1385,19 @@
   },
   {
     "level": "state",
-    "office": "Attorney General",
-    "name": "Anne Lopez",
-    "party": "Democratic Party",
-    "state": "Hawaii",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Idiots_Mais_Rus%C3%A9s_%28stage_set%29.jpg/330px-Idiots_Mais_Rus%C3%A9s_%28stage_set%29.jpg"
-  },
-  {
-    "level": "state",
     "office": "Governor",
     "name": "Brad Little",
     "party": "Republican Party",
     "state": "Idaho",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Brad_Little_official_photo.jpg/330px-Brad_Little_official_photo.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Raúl Labrador",
+    "party": "Republican Party",
+    "state": "Idaho",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Raul_Labrador_115th.jpg/330px-Raul_Labrador_115th.jpg"
   },
   {
     "level": "state",
@@ -1713,11 +1409,27 @@
   },
   {
     "level": "state",
+    "office": "Governor",
+    "name": "J.B. Pritzker",
+    "party": "Democratic Party",
+    "state": "Illinois",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/J.B._Pritzker_April_2023_%283x4%29.jpg/330px-J.B._Pritzker_April_2023_%283x4%29.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Juliana Stratton",
+    "party": "Democratic Party",
+    "state": "Illinois",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Juliana_Stratton_2023_%28cropped%29.jpg/330px-Juliana_Stratton_2023_%28cropped%29.jpg"
+  },
+  {
+    "level": "state",
     "office": "Attorney General",
-    "name": "Ra\u00fal Labrador",
-    "party": "Republican Party",
-    "state": "Idaho",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Raul_Labrador_115th.jpg/330px-Raul_Labrador_115th.jpg"
+    "name": "Kwame Raoul",
+    "party": "Democratic Party",
+    "state": "Illinois",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Kwame_Raoul_RFCG.jpg/330px-Kwame_Raoul_RFCG.jpg"
   },
   {
     "level": "state",
@@ -1745,14 +1457,6 @@
   },
   {
     "level": "state",
-    "office": "Governor",
-    "name": "Kim Reynolds",
-    "party": "Republican Party",
-    "state": "Iowa",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Kim_Reynolds_%2853130409920%29_%28cropped%29.jpg/330px-Kim_Reynolds_%2853130409920%29_%28cropped%29.jpg"
-  },
-  {
-    "level": "state",
     "office": "Lieutenant Governor",
     "name": "Adam Gregg",
     "party": "Republican Party",
@@ -1770,10 +1474,10 @@
   {
     "level": "state",
     "office": "Governor",
-    "name": "Laura Kelly",
-    "party": "Democratic Party",
-    "state": "Kansas",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Laura_Kelly_official_photo.jpg/330px-Laura_Kelly_official_photo.jpg"
+    "name": "Kim Reynolds",
+    "party": "Republican Party",
+    "state": "Iowa",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Kim_Reynolds_%2853130409920%29_%28cropped%29.jpg/330px-Kim_Reynolds_%2853130409920%29_%28cropped%29.jpg"
   },
   {
     "level": "state",
@@ -1794,10 +1498,34 @@
   {
     "level": "state",
     "office": "Governor",
-    "name": "Jeff Landry",
+    "name": "Laura Kelly",
+    "party": "Democratic Party",
+    "state": "Kansas",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Laura_Kelly_official_photo.jpg/330px-Laura_Kelly_official_photo.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Andy Beshear",
+    "party": "Democratic Party",
+    "state": "Kentucky",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Andy_Beshear_2024_%28cropped%29.jpg/330px-Andy_Beshear_2024_%28cropped%29.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Jacqueline Coleman",
+    "party": "Democratic Party",
+    "state": "Kentucky",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Jacqueline_Coleman_speaks_to_an_audience_from_the_Capitol_steps_in_Frankfort_%28cropped%29.jpg/330px-Jacqueline_Coleman_speaks_to_an_audience_from_the_Capitol_steps_in_Frankfort_%28cropped%29.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Russell Coleman",
     "party": "Republican Party",
-    "state": "Louisiana",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Jeff_Landry_2025.jpg/330px-Jeff_Landry_2025.jpg"
+    "state": "Kentucky",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Russell_Coleman_official_photo.jpg/330px-Russell_Coleman_official_photo.jpg"
   },
   {
     "level": "state",
@@ -1809,19 +1537,19 @@
   },
   {
     "level": "state",
+    "office": "Governor",
+    "name": "Jeff Landry",
+    "party": "Republican Party",
+    "state": "Louisiana",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Jeff_Landry_2025.jpg/330px-Jeff_Landry_2025.jpg"
+  },
+  {
+    "level": "state",
     "office": "Attorney General",
     "name": "Liz Murrill",
     "party": "Republican Party",
     "state": "Louisiana",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Liz_Murrill_at_Select_Subcommittee_Hearing_%28cropped%29.png/330px-Liz_Murrill_at_Select_Subcommittee_Hearing_%28cropped%29.png"
-  },
-  {
-    "level": "state",
-    "office": "Governor",
-    "name": "Janet Mills",
-    "party": "Democratic Party",
-    "state": "Maine",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Maine_congressional_delegation_meets_with_Gov_Janet_Mills_%28cropped%29.jpg/330px-Maine_congressional_delegation_meets_with_Gov_Janet_Mills_%28cropped%29.jpg"
   },
   {
     "level": "state",
@@ -1834,18 +1562,10 @@
   {
     "level": "state",
     "office": "Governor",
-    "name": "Wes Moore",
+    "name": "Janet Mills",
     "party": "Democratic Party",
-    "state": "Maryland",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Wes_Moore_Official_Governor_Portrait.jpg/330px-Wes_Moore_Official_Governor_Portrait.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Lieutenant Governor",
-    "name": "Aruna Miller",
-    "party": "Democratic Party",
-    "state": "Maryland",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Aruna_Miller_Official_Portrait.jpg/330px-Aruna_Miller_Official_Portrait.jpg"
+    "state": "Maine",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Maine_congressional_delegation_meets_with_Gov_Janet_Mills_%28cropped%29.jpg/330px-Maine_congressional_delegation_meets_with_Gov_Janet_Mills_%28cropped%29.jpg"
   },
   {
     "level": "state",
@@ -1857,19 +1577,43 @@
   },
   {
     "level": "state",
-    "office": "Governor",
-    "name": "Gretchen Whitmer",
+    "office": "Lieutenant Governor",
+    "name": "Aruna Miller",
     "party": "Democratic Party",
-    "state": "Michigan",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/2025_Gretchen_Whitmer_%28cropped%29.jpg/330px-2025_Gretchen_Whitmer_%28cropped%29.jpg"
+    "state": "Maryland",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Aruna_Miller_Official_Portrait.jpg/330px-Aruna_Miller_Official_Portrait.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Wes Moore",
+    "party": "Democratic Party",
+    "state": "Maryland",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Wes_Moore_Official_Governor_Portrait.jpg/330px-Wes_Moore_Official_Governor_Portrait.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Andrea Campbell",
+    "party": "Democratic Party",
+    "state": "Massachusetts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Andrea_Campbell_official_attorney_general_headshot%2C_2023_%283x4%29.jpg/330px-Andrea_Campbell_official_attorney_general_headshot%2C_2023_%283x4%29.jpg"
   },
   {
     "level": "state",
     "office": "Lieutenant Governor",
-    "name": "Garlin Gilchrist",
+    "name": "Kim Driscoll",
     "party": "Democratic Party",
-    "state": "Michigan",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/8R4A9159_%2853359280492%29_%28Garlin_Gilchrist%29.jpg/330px-8R4A9159_%2853359280492%29_%28Garlin_Gilchrist%29.jpg"
+    "state": "Massachusetts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Kim_Driscoll%2C_official_portrait%2C_lieutenant_governor.jpg/330px-Kim_Driscoll%2C_official_portrait%2C_lieutenant_governor.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Maura Healey",
+    "party": "Democratic Party",
+    "state": "Massachusetts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Maura_Healey%2C_official_portrait%2C_governor.jpg/330px-Maura_Healey%2C_official_portrait%2C_governor.jpg"
   },
   {
     "level": "state",
@@ -1881,11 +1625,43 @@
   },
   {
     "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Garlin Gilchrist",
+    "party": "Democratic Party",
+    "state": "Michigan",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/8R4A9159_%2853359280492%29_%28Garlin_Gilchrist%29.jpg/330px-8R4A9159_%2853359280492%29_%28Garlin_Gilchrist%29.jpg"
+  },
+  {
+    "level": "state",
     "office": "Governor",
-    "name": "Tate Reeves",
-    "party": "Republican Party",
-    "state": "Mississippi",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gov._Tate_Reeves_Signs_House_Bill_1486_%28cropped%29.jpg/330px-Gov._Tate_Reeves_Signs_House_Bill_1486_%28cropped%29.jpg"
+    "name": "Gretchen Whitmer",
+    "party": "Democratic Party",
+    "state": "Michigan",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/2025_Gretchen_Whitmer_%28cropped%29.jpg/330px-2025_Gretchen_Whitmer_%28cropped%29.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Keith Ellison",
+    "party": "Democratic Party",
+    "state": "Minnesota",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Keith_Ellison_portrait.jpg/330px-Keith_Ellison_portrait.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Peggy Flanagan",
+    "party": "Democratic Party",
+    "state": "Minnesota",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Peggy_Flanagan_and_Premier_Kinew_%28cropped%29.jpg/330px-Peggy_Flanagan_and_Premier_Kinew_%28cropped%29.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Tim Walz",
+    "party": "Democratic Party",
+    "state": "Minnesota",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/TimWalz2025.jpg/330px-TimWalz2025.jpg"
   },
   {
     "level": "state",
@@ -1906,10 +1682,18 @@
   {
     "level": "state",
     "office": "Governor",
-    "name": "Mike Parson",
+    "name": "Tate Reeves",
+    "party": "Republican Party",
+    "state": "Mississippi",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gov._Tate_Reeves_Signs_House_Bill_1486_%28cropped%29.jpg/330px-Gov._Tate_Reeves_Signs_House_Bill_1486_%28cropped%29.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Andrew Bailey",
     "party": "Republican Party",
     "state": "Missouri",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Mike_Parson_Governor_%28cropped%29.jpg/330px-Mike_Parson_Governor_%28cropped%29.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Andrew_Bailey_Missouri_Attorney_General.jpg/200px-Andrew_Bailey_Missouri_Attorney_General.jpg"
   },
   {
     "level": "state",
@@ -1921,11 +1705,19 @@
   },
   {
     "level": "state",
-    "office": "Attorney General",
-    "name": "Andrew Bailey",
+    "office": "Governor",
+    "name": "Mike Parson",
     "party": "Republican Party",
     "state": "Missouri",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Andrew_Bailey_Missouri_Attorney_General.jpg/200px-Andrew_Bailey_Missouri_Attorney_General.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Mike_Parson_Governor_%28cropped%29.jpg/330px-Mike_Parson_Governor_%28cropped%29.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Austin Knudsen",
+    "party": "Republican Party",
+    "state": "Montana",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Austin_Knudsen.jpg/330px-Austin_Knudsen.jpg"
   },
   {
     "level": "state",
@@ -1942,14 +1734,6 @@
     "party": "Republican Party",
     "state": "Montana",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Kristen_Juras.jpg/330px-Kristen_Juras.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Attorney General",
-    "name": "Austin Knudsen",
-    "party": "Republican Party",
-    "state": "Montana",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Austin_Knudsen.jpg/330px-Austin_Knudsen.jpg"
   },
   {
     "level": "state",
@@ -1977,6 +1761,14 @@
   },
   {
     "level": "state",
+    "office": "Attorney General",
+    "name": "Aaron Ford",
+    "party": "Democratic Party",
+    "state": "Nevada",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Aaron_Ford_Nevada_Attorney_General.jpg/200px-Aaron_Ford_Nevada_Attorney_General.jpg"
+  },
+  {
+    "level": "state",
     "office": "Governor",
     "name": "Joe Lombardo",
     "party": "Republican Party",
@@ -1990,14 +1782,6 @@
     "party": "Republican Party",
     "state": "Nevada",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Stavros_Anthony%2C_2023.jpg/330px-Stavros_Anthony%2C_2023.jpg"
-  },
-  {
-    "level": "state",
-    "office": "Attorney General",
-    "name": "Aaron Ford",
-    "party": "Democratic Party",
-    "state": "Nevada",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Aaron_Ford_Nevada_Attorney_General.jpg/200px-Aaron_Ford_Nevada_Attorney_General.jpg"
   },
   {
     "level": "state",
@@ -2017,11 +1801,27 @@
   },
   {
     "level": "state",
-    "office": "Governor",
-    "name": "Michelle Lujan Grisham",
+    "office": "Attorney General",
+    "name": "Matt Platkin",
     "party": "Democratic Party",
-    "state": "New Mexico",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Michelle_Lujan_Grisham_2021.jpg/330px-Michelle_Lujan_Grisham_2021.jpg"
+    "state": "New Jersey",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Matt_Platkin_New_Jersey_Attorney_General.jpg/200px-Matt_Platkin_New_Jersey_Attorney_General.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Phil Murphy",
+    "party": "Democratic Party",
+    "state": "New Jersey",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Gov._Phil_Murphy.jpg/330px-Gov._Phil_Murphy.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Sheila Oliver",
+    "party": "Democratic Party",
+    "state": "New Jersey",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Lt._Governor_Oliver_Portrait.jpg/330px-Lt._Governor_Oliver_Portrait.jpg"
   },
   {
     "level": "state",
@@ -2033,27 +1833,43 @@
   },
   {
     "level": "state",
-    "office": "Attorney General",
-    "name": "Ra\u00fal Torrez",
+    "office": "Governor",
+    "name": "Michelle Lujan Grisham",
     "party": "Democratic Party",
     "state": "New Mexico",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Ra\u00fal_Torrez_New_Mexico_Attorney_General.jpg/200px-Ra\u00fal_Torrez_New_Mexico_Attorney_General.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Michelle_Lujan_Grisham_2021.jpg/330px-Michelle_Lujan_Grisham_2021.jpg"
   },
   {
     "level": "state",
-    "office": "Governor",
-    "name": "Roy Cooper",
+    "office": "Attorney General",
+    "name": "Raúl Torrez",
     "party": "Democratic Party",
-    "state": "North Carolina",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Roy_Cooper_in_November_2023_%28cropped2%29.jpg/330px-Roy_Cooper_in_November_2023_%28cropped2%29.jpg"
+    "state": "New Mexico",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Raúl_Torrez_New_Mexico_Attorney_General.jpg/200px-Raúl_Torrez_New_Mexico_Attorney_General.jpg"
   },
   {
     "level": "state",
     "office": "Lieutenant Governor",
-    "name": "Mark Robinson",
-    "party": "Republican Party",
-    "state": "North Carolina",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/m/m3/Mark_Robinson_North_Carolina_Lieutenant_Governor.jpg/200px-Mark_Robinson_North_Carolina_Lieutenant_Governor.jpg"
+    "name": "Antonio Delgado",
+    "party": "Democratic Party",
+    "state": "New York",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/LG_Antonio_Delgado_Portrait.jpg/330px-LG_Antonio_Delgado_Portrait.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Kathy Hochul",
+    "party": "Democratic Party",
+    "state": "New York",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Kathy_Hochul_2021.jpg/200px-Kathy_Hochul_2021.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Letitia James",
+    "party": "Democratic Party",
+    "state": "New York",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Letitia_James_Interview_Feb_2020.png/330px-Letitia_James_Interview_Feb_2020.png"
   },
   {
     "level": "state",
@@ -2065,11 +1881,35 @@
   },
   {
     "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Mark Robinson",
+    "party": "Republican Party",
+    "state": "North Carolina",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/m/m3/Mark_Robinson_North_Carolina_Lieutenant_Governor.jpg/200px-Mark_Robinson_North_Carolina_Lieutenant_Governor.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Roy Cooper",
+    "party": "Democratic Party",
+    "state": "North Carolina",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Roy_Cooper_in_November_2023_%28cropped2%29.jpg/330px-Roy_Cooper_in_November_2023_%28cropped2%29.jpg"
+  },
+  {
+    "level": "state",
     "office": "Governor",
     "name": "Doug Burgum",
     "party": "Republican Party",
     "state": "North Dakota",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Portait_of_Secretary_Doug_Burgum%2C_2025_High_Quality_%28cropped1%29.jpg/330px-Portait_of_Secretary_Doug_Burgum%2C_2025_High_Quality_%28cropped1%29.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Drew Wrigley",
+    "party": "Republican Party",
+    "state": "North Dakota",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Drew_Wrigley_-_official_U.S._Attorney_portrait.jpg/330px-Drew_Wrigley_-_official_U.S._Attorney_portrait.jpg"
   },
   {
     "level": "state",
@@ -2082,10 +1922,98 @@
   {
     "level": "state",
     "office": "Attorney General",
-    "name": "Drew Wrigley",
+    "name": "Dave Yost",
     "party": "Republican Party",
-    "state": "North Dakota",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Drew_Wrigley_-_official_U.S._Attorney_portrait.jpg/330px-Drew_Wrigley_-_official_U.S._Attorney_portrait.jpg"
+    "state": "Ohio",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Dave_Yost_at_Federalist_Society_2.jpg/330px-Dave_Yost_at_Federalist_Society_2.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Jon Husted",
+    "party": "Republican Party",
+    "state": "Ohio",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Sen._Jon_Husted_official_portrait%2C_119th_Congress.jpg/330px-Sen._Jon_Husted_official_portrait%2C_119th_Congress.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Mike DeWine",
+    "party": "Republican Party",
+    "state": "Ohio",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Gov-Mike-DeWine.jpg/330px-Gov-Mike-DeWine.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Ellen Rosenblum",
+    "party": "Democratic Party",
+    "state": "Oregon",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Oregon_Attorney_General_Ellen_Rosenblum_addresses_attendees_at_the_conference_%2815478927731%29_%28cropped%29.jpg/330px-Oregon_Attorney_General_Ellen_Rosenblum_addresses_attendees_at_the_conference_%2815478927731%29_%28cropped%29.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Secretary of State",
+    "name": "LaVonne Griffin-Valade",
+    "party": "Democratic Party",
+    "state": "Oregon",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/LaVonne_Griffin_Valade.jpg/300px-LaVonne_Griffin_Valade.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Tina Kotek",
+    "party": "Democratic Party",
+    "state": "Oregon",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Tina_Kotek_official_portrait_2021%283x4_cropped%29.jpg/330px-Tina_Kotek_official_portrait_2021%283x4_cropped%29.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Austin Davis",
+    "party": "Democratic Party",
+    "state": "Pennsylvania",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Austin_Davis_Pennsylvania_Lt_Governor.jpg/200px-Austin_Davis_Pennsylvania_Lt_Governor.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Josh Shapiro",
+    "party": "Democratic Party",
+    "state": "Pennsylvania",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Governor_Shapiro.jpg/330px-Governor_Shapiro.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Michelle Henry",
+    "party": "Democratic Party",
+    "state": "Pennsylvania",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Michelle_Henry_Pennsylvania_Attorney_General.jpg/200px-Michelle_Henry_Pennsylvania_Attorney_General.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Alan Wilson",
+    "party": "Republican Party",
+    "state": "South Carolina",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Alan_Wilson_South_Carolina_Attorney_General.jpg/200px-Alan_Wilson_South_Carolina_Attorney_General.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Henry McMaster",
+    "party": "Republican Party",
+    "state": "South Carolina",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/McMaster_In_2024.jpg/330px-McMaster_In_2024.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Pamela Evette",
+    "party": "Republican Party",
+    "state": "South Carolina",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Pamela_Evette_2019.jpg/330px-Pamela_Evette_2019.jpg"
   },
   {
     "level": "state",
@@ -2121,14 +2049,6 @@
   },
   {
     "level": "state",
-    "office": "Lieutenant Governor",
-    "name": "Randy McNally",
-    "party": "Republican Party",
-    "state": "Tennessee",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Sen._Randy_McNally.jpg/330px-Sen._Randy_McNally.jpg"
-  },
-  {
-    "level": "state",
     "office": "Attorney General",
     "name": "Jonathan Skrmetti",
     "party": "Republican Party",
@@ -2137,11 +2057,35 @@
   },
   {
     "level": "state",
-    "office": "Governor",
-    "name": "Spencer Cox",
+    "office": "Lieutenant Governor",
+    "name": "Randy McNally",
     "party": "Republican Party",
-    "state": "Utah",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Spencer_Cox_-_54856206905_%28cropped%29.jpg/330px-Spencer_Cox_-_54856206905_%28cropped%29.jpg"
+    "state": "Tennessee",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Sen._Randy_McNally.jpg/330px-Sen._Randy_McNally.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Dan Patrick",
+    "party": "Republican Party",
+    "state": "Texas",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Dan_Patrick_Texas_Lt_Governor.jpg/200px-Dan_Patrick_Texas_Lt_Governor.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Greg Abbott",
+    "party": "Republican Party",
+    "state": "Texas",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Greg_Abbott_official_photo.jpg/200px-Greg_Abbott_official_photo.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Ken Paxton",
+    "party": "Republican Party",
+    "state": "Texas",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Ken_Paxton_%2854816860552%29_%28cropped%29.jpg/330px-Ken_Paxton_%2854816860552%29_%28cropped%29.jpg"
   },
   {
     "level": "state",
@@ -2162,18 +2106,10 @@
   {
     "level": "state",
     "office": "Governor",
-    "name": "Phil Scott",
+    "name": "Spencer Cox",
     "party": "Republican Party",
-    "state": "Vermont",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Phil_Scott_2019_%283x4_cropped%29.png/330px-Phil_Scott_2019_%283x4_cropped%29.png"
-  },
-  {
-    "level": "state",
-    "office": "Lieutenant Governor",
-    "name": "David Zuckerman",
-    "party": "Progressive Party",
-    "state": "Vermont",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/David_Zuckerman_Vermont_Lieutenant_Governor.jpg/200px-David_Zuckerman_Vermont_Lieutenant_Governor.jpg"
+    "state": "Utah",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Spencer_Cox_-_54856206905_%28cropped%29.jpg/330px-Spencer_Cox_-_54856206905_%28cropped%29.jpg"
   },
   {
     "level": "state",
@@ -2185,19 +2121,67 @@
   },
   {
     "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "David Zuckerman",
+    "party": "Progressive Party",
+    "state": "Vermont",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/David_Zuckerman_Vermont_Lieutenant_Governor.jpg/200px-David_Zuckerman_Vermont_Lieutenant_Governor.jpg"
+  },
+  {
+    "level": "state",
     "office": "Governor",
-    "name": "Tony Evers",
-    "party": "Democratic Party",
-    "state": "Wisconsin",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Tony_Evers_-_2022_%28a%29.jpg/330px-Tony_Evers_-_2022_%28a%29.jpg"
+    "name": "Phil Scott",
+    "party": "Republican Party",
+    "state": "Vermont",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Phil_Scott_2019_%283x4_cropped%29.png/330px-Phil_Scott_2019_%283x4_cropped%29.png"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Glenn Youngkin",
+    "party": "Republican Party",
+    "state": "Virginia",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Youngkin_Governor_Portrait.jpg/330px-Youngkin_Governor_Portrait.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Jason Miyares",
+    "party": "Republican Party",
+    "state": "Virginia",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Attorney_General_Jason_Miyares_%28cropped%29.jpg/330px-Attorney_General_Jason_Miyares_%28cropped%29.jpg"
   },
   {
     "level": "state",
     "office": "Lieutenant Governor",
-    "name": "Sara Rodriguez",
+    "name": "Winsome Sears",
+    "party": "Republican Party",
+    "state": "Virginia",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Winsome_Sears_portrait%2C_2022.jpg/330px-Winsome_Sears_portrait%2C_2022.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Bob Ferguson",
     "party": "Democratic Party",
-    "state": "Wisconsin",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Sara_Rodriguez_2023_%28cropped%29.png/330px-Sara_Rodriguez_2023_%28cropped%29.png"
+    "state": "Washington",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Bob_Ferguson_Washington_Attorney_General.jpg/200px-Bob_Ferguson_Washington_Attorney_General.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Denny Heck",
+    "party": "Democratic Party",
+    "state": "Washington",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Denny_Heck_official_photo.jpg/330px-Denny_Heck_official_photo.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Governor",
+    "name": "Jay Inslee",
+    "party": "Democratic Party",
+    "state": "Washington",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/U.S._Department_of_the_Interior%2C_Columbia_River_Salmon_Agreement_Ceremonial_Event%2C_Washington_DC_on_23_February_2024_-_62_%28cropped%29.jpg/330px-U.S._Department_of_the_Interior%2C_Columbia_River_Salmon_Agreement_Ceremonial_Event%2C_Washington_DC_on_23_February_2024_-_62_%28cropped%29.jpg"
   },
   {
     "level": "state",
@@ -2209,11 +2193,27 @@
   },
   {
     "level": "state",
+    "office": "Lieutenant Governor",
+    "name": "Sara Rodriguez",
+    "party": "Democratic Party",
+    "state": "Wisconsin",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Sara_Rodriguez_2023_%28cropped%29.png/330px-Sara_Rodriguez_2023_%28cropped%29.png"
+  },
+  {
+    "level": "state",
     "office": "Governor",
-    "name": "Mark Gordon",
+    "name": "Tony Evers",
+    "party": "Democratic Party",
+    "state": "Wisconsin",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Tony_Evers_-_2022_%28a%29.jpg/330px-Tony_Evers_-_2022_%28a%29.jpg"
+  },
+  {
+    "level": "state",
+    "office": "Attorney General",
+    "name": "Bridget Hill",
     "party": "Republican Party",
     "state": "Wyoming",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Wyoming_Governor_Mark_Gordon_expands_partnership_with_Tunisia_to_enhance_agriculture_and_civil_protection_%284%29_%28cropped%29.jpg/330px-Wyoming_Governor_Mark_Gordon_expands_partnership_with_Tunisia_to_enhance_agriculture_and_civil_protection_%284%29_%28cropped%29.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Bridget_Hill_Wyoming_Attorney_General.jpg/200px-Bridget_Hill_Wyoming_Attorney_General.jpg"
   },
   {
     "level": "state",
@@ -2225,47 +2225,11 @@
   },
   {
     "level": "state",
-    "office": "Attorney General",
-    "name": "Bridget Hill",
+    "office": "Governor",
+    "name": "Mark Gordon",
     "party": "Republican Party",
     "state": "Wyoming",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Bridget_Hill_Wyoming_Attorney_General.jpg/200px-Bridget_Hill_Wyoming_Attorney_General.jpg"
-  },
-  {
-    "level": "local",
-    "office": "Mayor",
-    "name": "Eric Adams",
-    "party": "Democratic Party",
-    "state": "New York",
-    "city": "New York City",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Eric_Adams_at_City_Hall_2023_%283x4_cropped%29.jpg/330px-Eric_Adams_at_City_Hall_2023_%283x4_cropped%29.jpg"
-  },
-  {
-    "level": "local",
-    "office": "Mayor",
-    "name": "Karen Bass",
-    "party": "Democratic Party",
-    "state": "California",
-    "city": "Los Angeles",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Karen_Bass%2C_2023_%28cropped%29.jpg/330px-Karen_Bass%2C_2023_%28cropped%29.jpg"
-  },
-  {
-    "level": "local",
-    "office": "Mayor",
-    "name": "Brandon Johnson",
-    "party": "Democratic Party",
-    "state": "Illinois",
-    "city": "Chicago",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Brandon_Johnson_2024.jpg/330px-Brandon_Johnson_2024.jpg"
-  },
-  {
-    "level": "local",
-    "office": "Mayor",
-    "name": "Sylvester Turner",
-    "party": "Democratic Party",
-    "state": "Texas",
-    "city": "Houston",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Turner_Sylvester_119th_Congress_%283x4_cropped%29.jpg/330px-Turner_Sylvester_119th_Congress_%283x4_cropped%29.jpg"
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Wyoming_Governor_Mark_Gordon_expands_partnership_with_Tunisia_to_enhance_agriculture_and_civil_protection_%284%29_%28cropped%29.jpg/330px-Wyoming_Governor_Mark_Gordon_expands_partnership_with_Tunisia_to_enhance_agriculture_and_civil_protection_%284%29_%28cropped%29.jpg"
   },
   {
     "level": "local",
@@ -2279,56 +2243,11 @@
   {
     "level": "local",
     "office": "Mayor",
-    "name": "Cherelle Parker",
+    "name": "Michael Hancock",
     "party": "Democratic Party",
-    "state": "Pennsylvania",
-    "city": "Philadelphia",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Councilmember_Parker_Hosts_Street_Renaming_to_Honor_Vanita_Cruse_10-29-2021_%2851647482649%29_%28closer_crop%29.jpg/330px-Councilmember_Parker_Hosts_Street_Renaming_to_Honor_Vanita_Cruse_10-29-2021_%2851647482649%29_%28closer_crop%29.jpg"
-  },
-  {
-    "level": "local",
-    "office": "Mayor",
-    "name": "Ron Nirenberg",
-    "party": "Independent",
-    "state": "Texas",
-    "city": "San Antonio",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Ron_Nirenberg_at_the_2024_Fiesta_San_Antonio_Media_Day_%28cropped%29.jpg/330px-Ron_Nirenberg_at_the_2024_Fiesta_San_Antonio_Media_Day_%28cropped%29.jpg"
-  },
-  {
-    "level": "local",
-    "office": "Mayor",
-    "name": "Todd Gloria",
-    "party": "Democratic Party",
-    "state": "California",
-    "city": "San Diego",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/AssemblymemberToddGloria.jpg/300px-AssemblymemberToddGloria.jpg"
-  },
-  {
-    "level": "local",
-    "office": "Mayor",
-    "name": "Eric Johnson",
-    "party": "Democratic Party",
-    "state": "Texas",
-    "city": "Dallas",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Eric_Johnson_Dallas_Mayor.jpg/200px-Eric_Johnson_Dallas_Mayor.jpg"
-  },
-  {
-    "level": "local",
-    "office": "Mayor",
-    "name": "Matt Mahan",
-    "party": "Democratic Party",
-    "state": "California",
-    "city": "San Jose",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Matt_Mahan_portrait_2025.jpg/330px-Matt_Mahan_portrait_2025.jpg"
-  },
-  {
-    "level": "local",
-    "office": "Mayor",
-    "name": "Tim Kelly",
-    "party": "Republican Party",
-    "state": "Tennessee",
-    "city": "Chattanooga",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/t/t1/Tim_Kelly_Chattanooga_Mayor.jpg/200px-Tim_Kelly_Chattanooga_Mayor.jpg"
+    "state": "Colorado",
+    "city": "Denver",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/m/m2/Michael_Hancock_Denver_Mayor.jpg/200px-Michael_Hancock_Denver_Mayor.jpg"
   },
   {
     "level": "local",
@@ -2342,92 +2261,20 @@
   {
     "level": "local",
     "office": "Mayor",
-    "name": "Aftab Pureval",
+    "name": "Keisha Lance Bottoms",
     "party": "Democratic Party",
-    "state": "Ohio",
-    "city": "Cincinnati",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Aftab_Pureval_headshot.jpg/330px-Aftab_Pureval_headshot.jpg"
+    "state": "Georgia",
+    "city": "Atlanta",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Keisha_Lance_Bottoms_2019.jpg/330px-Keisha_Lance_Bottoms_2019.jpg"
   },
   {
     "level": "local",
     "office": "Mayor",
-    "name": "Tishaura Jones",
+    "name": "Brandon Johnson",
     "party": "Democratic Party",
-    "state": "Missouri",
-    "city": "St. Louis",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Tishaura_Jones_crop.jpg/330px-Tishaura_Jones_crop.jpg"
-  },
-  {
-    "level": "local",
-    "office": "Mayor",
-    "name": "Justin Bibb",
-    "party": "Democratic Party",
-    "state": "Ohio",
-    "city": "Cleveland",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Mayoral_candidate_Justin_M._Bibb_02_%28cropped%29.jpg/330px-Mayoral_candidate_Justin_M._Bibb_02_%28cropped%29.jpg"
-  },
-  {
-    "level": "local",
-    "office": "Mayor",
-    "name": "Michelle Wu",
-    "party": "Democratic Party",
-    "state": "Massachusetts",
-    "city": "Boston",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Michelle_Wu_53455940403_bd5ebc2ca6_o_%282%29.jpg/330px-Michelle_Wu_53455940403_bd5ebc2ca6_o_%282%29.jpg"
-  },
-  {
-    "level": "local",
-    "office": "Mayor",
-    "name": "Bruce Harrell",
-    "party": "Democratic Party",
-    "state": "Washington",
-    "city": "Seattle",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Bruce_Harrell_%2852457507483%29_%282%29.jpg/330px-Bruce_Harrell_%2852457507483%29_%282%29.jpg"
-  },
-  {
-    "level": "local",
-    "office": "Mayor",
-    "name": "Todd Gloria",
-    "party": "Democratic Party",
-    "state": "California",
-    "city": "San Diego",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/AssemblymemberToddGloria.jpg/300px-AssemblymemberToddGloria.jpg"
-  },
-  {
-    "level": "local",
-    "office": "Mayor",
-    "name": "Jim Kenney",
-    "party": "Democratic Party",
-    "state": "Pennsylvania",
-    "city": "Philadelphia",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Jim_Kenney_%282019%29_%281%29.jpg/330px-Jim_Kenney_%282019%29_%281%29.jpg"
-  },
-  {
-    "level": "local",
-    "office": "Mayor",
-    "name": "LaToya Cantrell",
-    "party": "Democratic Party",
-    "state": "Louisiana",
-    "city": "New Orleans",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Mayor_Latoya_Cantrell_-Hurricane_Season_Press_Conference_May_27%2C_2022_-_New_Orleans%2C_IHNC_Surge_Barrier_%28cropped%29.jpg/330px-Mayor_Latoya_Cantrell_-Hurricane_Season_Press_Conference_May_27%2C_2022_-_New_Orleans%2C_IHNC_Surge_Barrier_%28cropped%29.jpg"
-  },
-  {
-    "level": "local",
-    "office": "Mayor",
-    "name": "Darrell Steinberg",
-    "party": "Democratic Party",
-    "state": "California",
-    "city": "Sacramento",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Darrell_Steinberg_Mayoral_Portrait.jpg/330px-Darrell_Steinberg_Mayoral_Portrait.jpg"
-  },
-  {
-    "level": "local",
-    "office": "Mayor",
-    "name": "Eric Garcetti",
-    "party": "Democratic Party",
-    "state": "California",
-    "city": "Los Angeles",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Eric_Garcetti%2C_2023.jpg/330px-Eric_Garcetti%2C_2023.jpg"
+    "state": "Illinois",
+    "city": "Chicago",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Brandon_Johnson_2024.jpg/330px-Brandon_Johnson_2024.jpg"
   },
   {
     "level": "local",
@@ -2441,6 +2288,42 @@
   {
     "level": "local",
     "office": "Mayor",
+    "name": "LaToya Cantrell",
+    "party": "Democratic Party",
+    "state": "Louisiana",
+    "city": "New Orleans",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Mayor_Latoya_Cantrell_-Hurricane_Season_Press_Conference_May_27%2C_2022_-_New_Orleans%2C_IHNC_Surge_Barrier_%28cropped%29.jpg/330px-Mayor_Latoya_Cantrell_-Hurricane_Season_Press_Conference_May_27%2C_2022_-_New_Orleans%2C_IHNC_Surge_Barrier_%28cropped%29.jpg"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Marty Walsh",
+    "party": "Democratic Party",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Secretary_Marty_Walsh_official_portrait_%283x4_a%29.jpg/330px-Secretary_Marty_Walsh_official_portrait_%283x4_a%29.jpg"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Michelle Wu",
+    "party": "Democratic Party",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Michelle_Wu_53455940403_bd5ebc2ca6_o_%282%29.jpg/330px-Michelle_Wu_53455940403_bd5ebc2ca6_o_%282%29.jpg"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Tishaura Jones",
+    "party": "Democratic Party",
+    "state": "Missouri",
+    "city": "St. Louis",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Tishaura_Jones_crop.jpg/330px-Tishaura_Jones_crop.jpg"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
     "name": "Bill de Blasio",
     "party": "Democratic Party",
     "state": "New York",
@@ -2450,11 +2333,29 @@
   {
     "level": "local",
     "office": "Mayor",
-    "name": "Jenny Durkan",
+    "name": "Eric Adams",
     "party": "Democratic Party",
-    "state": "Washington",
-    "city": "Seattle",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Mayor_Jenny_A._Durkan_Headshot.jpg/330px-Mayor_Jenny_A._Durkan_Headshot.jpg"
+    "state": "New York",
+    "city": "New York City",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Eric_Adams_at_City_Hall_2023_%283x4_cropped%29.jpg/330px-Eric_Adams_at_City_Hall_2023_%283x4_cropped%29.jpg"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Aftab Pureval",
+    "party": "Democratic Party",
+    "state": "Ohio",
+    "city": "Cincinnati",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Aftab_Pureval_headshot.jpg/330px-Aftab_Pureval_headshot.jpg"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Justin Bibb",
+    "party": "Democratic Party",
+    "state": "Ohio",
+    "city": "Cleveland",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Mayoral_candidate_Justin_M._Bibb_02_%28cropped%29.jpg/330px-Mayoral_candidate_Justin_M._Bibb_02_%28cropped%29.jpg"
   },
   {
     "level": "local",
@@ -2468,11 +2369,29 @@
   {
     "level": "local",
     "office": "Mayor",
-    "name": "Michael Hancock",
+    "name": "Cherelle Parker",
     "party": "Democratic Party",
-    "state": "Colorado",
-    "city": "Denver",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/m/m2/Michael_Hancock_Denver_Mayor.jpg/200px-Michael_Hancock_Denver_Mayor.jpg"
+    "state": "Pennsylvania",
+    "city": "Philadelphia",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Councilmember_Parker_Hosts_Street_Renaming_to_Honor_Vanita_Cruse_10-29-2021_%2851647482649%29_%28closer_crop%29.jpg/330px-Councilmember_Parker_Hosts_Street_Renaming_to_Honor_Vanita_Cruse_10-29-2021_%2851647482649%29_%28closer_crop%29.jpg"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Jim Kenney",
+    "party": "Democratic Party",
+    "state": "Pennsylvania",
+    "city": "Philadelphia",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Jim_Kenney_%282019%29_%281%29.jpg/330px-Jim_Kenney_%282019%29_%281%29.jpg"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Tim Kelly",
+    "party": "Republican Party",
+    "state": "Tennessee",
+    "city": "Chattanooga",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/t/t1/Tim_Kelly_Chattanooga_Mayor.jpg/200px-Tim_Kelly_Chattanooga_Mayor.jpg"
   },
   {
     "level": "local",
@@ -2486,19 +2405,46 @@
   {
     "level": "local",
     "office": "Mayor",
-    "name": "Keisha Lance Bottoms",
+    "name": "Eric Johnson",
     "party": "Democratic Party",
-    "state": "Georgia",
-    "city": "Atlanta",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Keisha_Lance_Bottoms_2019.jpg/330px-Keisha_Lance_Bottoms_2019.jpg"
+    "state": "Texas",
+    "city": "Dallas",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Eric_Johnson_Dallas_Mayor.jpg/200px-Eric_Johnson_Dallas_Mayor.jpg"
   },
   {
     "level": "local",
     "office": "Mayor",
-    "name": "Marty Walsh",
+    "name": "Sylvester Turner",
     "party": "Democratic Party",
-    "state": "Massachusetts",
-    "city": "Boston",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Secretary_Marty_Walsh_official_portrait_%283x4_a%29.jpg/330px-Secretary_Marty_Walsh_official_portrait_%283x4_a%29.jpg"
+    "state": "Texas",
+    "city": "Houston",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Turner_Sylvester_119th_Congress_%283x4_cropped%29.jpg/330px-Turner_Sylvester_119th_Congress_%283x4_cropped%29.jpg"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Ron Nirenberg",
+    "party": "Independent",
+    "state": "Texas",
+    "city": "San Antonio",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Ron_Nirenberg_at_the_2024_Fiesta_San_Antonio_Media_Day_%28cropped%29.jpg/330px-Ron_Nirenberg_at_the_2024_Fiesta_San_Antonio_Media_Day_%28cropped%29.jpg"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Bruce Harrell",
+    "party": "Democratic Party",
+    "state": "Washington",
+    "city": "Seattle",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Bruce_Harrell_%2852457507483%29_%282%29.jpg/330px-Bruce_Harrell_%2852457507483%29_%282%29.jpg"
+  },
+  {
+    "level": "local",
+    "office": "Mayor",
+    "name": "Jenny Durkan",
+    "party": "Democratic Party",
+    "state": "Washington",
+    "city": "Seattle",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Mayor_Jenny_A._Durkan_Headshot.jpg/330px-Mayor_Jenny_A._Durkan_Headshot.jpg"
   }
 ]
