@@ -719,80 +719,69 @@ export default function Home() {
                           const photoUrl = p.photoUrl || photoCache[p.name];
                           const isFetching = fetchingPhotos.current.has(p.name);
                           const hasFailed = failedPhotos.has(p.name);
-                          
-                          // Show photo if available and hasn't failed, otherwise show loading or initials
-                          if (photoUrl && !hasFailed) {
-                            return (
-                              <div className="relative w-20 h-20 flex-shrink-0">
-                                <img
-                                  key={`${p.name}-photo-${photoUrl}`}
-                                  src={photoUrl}
-                                  alt={p.name}
-                                  className="w-20 h-20 object-cover rounded-full border-2 border-blue-200"
-                                  loading="lazy"
-                                  onError={(e) => {
-                                    // Mark this photo URL as failed
-                                    setFailedPhotos(prev => new Set(prev).add(p.name));
-                                    const img = e.currentTarget;
-                                    img.style.display = 'none';
-                                    
-                                    // If this was a direct photoUrl that failed, try fetching from Wikipedia
-                                    if (p.photoUrl && !photoCache[p.name] && !fetchingPhotos.current.has(p.name)) {
-                                      console.log(`🔄 Photo failed to load for ${p.name}, fetching from Wikipedia...`);
-                                      fetchPhotoForRep(p.name, true); // Force fetch even if in progress
-                                    }
-                                    
-                                    // Show initials fallback immediately
-                                    const parent = img.parentElement;
-                                    if (parent && !parent.querySelector('.initials-fallback')) {
-                                      const fallback = document.createElement('div');
-                                      fallback.className = 'w-20 h-20 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-2xl font-bold border-2 border-blue-200 initials-fallback absolute inset-0';
-                                      fallback.textContent = p.name.split(" ").map((n: string) => n[0]).join("");
-                                      parent.appendChild(fallback);
-                                    }
-                                  }}
-                                  onLoad={(loadEvent) => {
-                                    // Hide any initials fallback when image loads successfully
-                                    const parent = loadEvent.currentTarget.parentElement;
-                                    const fallback = parent?.querySelector('.initials-fallback');
-                                    if (fallback) {
-                                      fallback.remove();
-                                    }
-                                    // Remove from failed photos if it loads successfully
-                                    setFailedPhotos(prev => {
-                                      const newSet = new Set(prev);
-                                      newSet.delete(p.name);
-                                      return newSet;
-                                    });
-                                  }}
-                                />
-                                {isFetching && (
-                                  <div className="absolute inset-0 rounded-full bg-black bg-opacity-10 flex items-center justify-center">
-                                    <div className="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
-                                  </div>
-                                )}
-                              </div>
-                            );
-                          } else {
-                            // Always try to fetch photo if not already fetching and no photoUrl or photoUrl failed
-                            if (!isFetching && !photoCache[p.name] && !failedPhotos.has(p.name)) {
-                              // Trigger fetch immediately for visible representatives
-                              fetchPhotoForRep(p.name);
-                            }
-                            return (
-                              <div className="w-20 h-20 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-2xl font-bold border-2 border-blue-200 relative flex-shrink-0">
-                                {p.name
-                                  .split(" ")
-                                  .map((n: string) => n[0])
-                                  .join("")}
-                                {isFetching && (
-                                  <div className="absolute inset-0 rounded-full bg-black bg-opacity-20 flex items-center justify-center">
-                                    <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-                                  </div>
-                                )}
-                              </div>
-                            );
+
+                          if (!photoUrl && !isFetching && !failedPhotos.has(p.name)) {
+                            fetchPhotoForRep(p.name);
                           }
+
+                          const initials = p.name
+                            .split(" ")
+                            .map((n: string) => n[0])
+                            .join("");
+
+                          const avatarContent = photoUrl && !hasFailed ? (
+                            <>
+                              <img
+                                key={`${p.name}-photo-${photoUrl}`}
+                                src={photoUrl}
+                                alt={p.name}
+                                className="absolute inset-0 w-full h-full object-cover"
+                                loading="lazy"
+                                onError={() => {
+                                  setFailedPhotos(prev => new Set(prev).add(p.name));
+                                  if (p.photoUrl && !photoCache[p.name] && !fetchingPhotos.current.has(p.name)) {
+                                    console.log(`🔄 Photo failed to load for ${p.name}, fetching from Wikipedia...`);
+                                    fetchPhotoForRep(p.name, true);
+                                  }
+                                }}
+                                onLoad={() => {
+                                  setFailedPhotos(prev => {
+                                    const newSet = new Set(prev);
+                                    newSet.delete(p.name);
+                                    return newSet;
+                                  });
+                                }}
+                              />
+                              {isFetching && (
+                                <div className="absolute inset-0 rounded-full bg-black bg-opacity-10 flex items-center justify-center">
+                                  <div className="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+                                </div>
+                              )}
+                            </>
+                          ) : (
+                            <>
+                              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-2xl font-bold">
+                                {initials}
+                              </div>
+                              {isFetching && (
+                                <div className="absolute inset-0 rounded-full bg-black bg-opacity-20 flex items-center justify-center">
+                                  <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                                </div>
+                              )}
+                            </>
+                          );
+
+                          return (
+                            <button
+                              type="button"
+                              onClick={() => fetchWiki(p.name)}
+                              className="relative w-20 h-20 flex-shrink-0 rounded-full border-2 border-blue-200 overflow-hidden focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-offset-2 focus:ring-offset-white transition-transform hover:scale-105"
+                              title={`Open Wikipedia information for ${p.name}`}
+                              aria-label={`Open Wikipedia information for ${p.name}`}
+                            >
+                              {avatarContent}
+                            </button>
+                          );
                         })()}
                         <div className="flex-1">
                           <button
